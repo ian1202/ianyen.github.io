@@ -1,0 +1,31 @@
+
+
+
+
+.iy-primary-btn:hover,
+.iy-primary-btn:focus,
+.iy-filter-link:hover,
+.iy-filter-imglink:hover,
+.iy-filter-link:focus,
+.iy-filter-imglink:focus,
+.iy-simplefilter li:hover,
+.iy-simplefilter li.active,
+
+}
+
+
+.iy-resume-btn:hover,
+.iy-resume-btn:focus,
+.iy-header-dot,
+.iy-filter-item-content,
+.iy-contact-top-single .iy-icon,
+#iy-featured-slider,
+#iy-header.iy-fixed-nav {
+	background-color: #ADD8E6;
+}
+
+
+.iy-resume-btn {
+	border: 2px solid #ADD8E6;
+	color: #ADD8E6;
+}
