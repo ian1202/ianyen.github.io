@@ -3,11 +3,12 @@
 	Custom JS
 	
 	1. FEATURED SLIDE ( TYPED SLIDER )
-	2. MENU SMOOTH SCROLLING
-	3. MOBILE MENU CLOSE  
-	4. PORTFOLIO GALLERY
-	5. PORTFOLIO POPUP VIEW ( IMAGE LIGHTBOX )
-	6. BUTTON SMOOTH SCROLL ( VIEW MY WORK )
+	2. FIXED MENU
+	3. MENU SMOOTH SCROLLING
+	4. MOBILE MENU CLOSE  
+	5. PORTFOLIO GALLERY
+	6. PORTFOLIO POPUP VIEW ( IMAGE LIGHTBOX )
+	7. BUTTON SMOOTH SCROLL ( VIEW MY WORK )
 
 	
 **/
@@ -35,7 +36,23 @@
 
 
 	/* ----------------------------------------------------------- */
-	/*  2. MENU SMOOTH SCROLLING
+	/*  2. FIXED MENU
+	/* ----------------------------------------------------------- */
+
+
+		jQuery(window).bind('scroll', function () {
+
+    		if ($(window).scrollTop() > 100) {
+
+        	$('#mu-header').addClass('mu-fixed-nav');
+        
+	    	} else {
+	        	$('#mu-header').removeClass('mu-fixed-nav');
+	    	}
+		});
+
+	/* ----------------------------------------------------------- */
+	/*  3. MENU SMOOTH SCROLLING
 	/* ----------------------------------------------------------- */ 
 
 		//MENU SCROLLING WITH ACTIVE ITEM SELECTED
@@ -88,7 +105,7 @@
 
 
 	/* ----------------------------------------------------------- */
-	/*  3. MOBILE MENU CLOSE 
+	/*  4. MOBILE MENU CLOSE 
 	/* ----------------------------------------------------------- */ 
 
 		jQuery('.iy-menu').on('click', 'li a', function() {
@@ -97,7 +114,7 @@
 
 
 	/* ----------------------------------------------------------- */
-	/*  4. PORTFOLIO GALLERY
+	/*  5. PORTFOLIO GALLERY
 	/* ----------------------------------------------------------- */ 
 		$('.filtr-container').filterizr();
 
@@ -109,7 +126,7 @@
 	    });
 
 	/* ----------------------------------------------------------- */
-	/*  5. PORTFOLIO POPUP VIEW ( IMAGE LIGHTBOX )
+	/*  6. PORTFOLIO POPUP VIEW ( IMAGE LIGHTBOX )
 	/* ----------------------------------------------------------- */ 
 
 	$('.iy-filter-imglink').magnificPopup({
@@ -123,7 +140,7 @@
 
 
 	/* ----------------------------------------------------------- */
-	/*  6. BUTTON SMOOTH SCROLL ( VIEW MY WORK )
+	/*  7. BUTTON SMOOTH SCROLL ( VIEW MY WORK )
 	/* ----------------------------------------------------------- */
 
 		$('.view-my-work-btn').on('click',function (e) {

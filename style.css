@@ -246,6 +246,7 @@ button:focus {
 	z-index: 999;
 	transition: all 0.5s;
 	background-color: #191970;
+	position: fixed;
 
 }
 
@@ -676,6 +677,7 @@ button:focus {
   background: white;
   padding-bottom: 50px;
   margin-top: 20px;
+  float: left;
 }
 
 #footer .socials-media {
@@ -861,6 +863,10 @@ button:focus {
 		padding: 10px 0px 25px 0px;
 
 	}
+
+	.navbar-brand {
+		padding-bottom: 10%;
+	}
 	
 	.iy-featured-slider-content {
 		left: 0;
@@ -916,6 +922,7 @@ button:focus {
 	.navbar-default .navbar-brand:focus {
 		font-size: 25px;
 		margin-top: 0px;
+		padding-bottom: 10%;
 	}
 
 	.navbar-toggle {
@@ -985,7 +992,7 @@ button:focus {
 	}
 
 	.iy-featured-area {
-		padding: 20% 5% 40% 5%;
+		padding: 50% 5% 40% 5%;
 	}
 
 
