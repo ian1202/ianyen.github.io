@@ -667,7 +667,6 @@ button:focus {
 
 .iy-contact-header {
 	display: inline;
-	float: left;
 	text-align: center;
 	width: 100%;
 	margin-top: 100px;
@@ -676,7 +675,7 @@ button:focus {
 #footer {
   background: white;
   padding-bottom: 50px;
-  margin-top: 20px;
+  margin: 10% 5% 0% 5%;
   float: left;
 }
 
