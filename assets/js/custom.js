@@ -9,6 +9,7 @@
 	5. PORTFOLIO GALLERY
 	6. PORTFOLIO POPUP VIEW ( IMAGE LIGHTBOX )
 	7. BUTTON SMOOTH SCROLL ( VIEW MY WORK )
+	8. CONTACT FORM
 
 	
 **/
@@ -158,7 +159,7 @@
 	/* ----------------------------------------------------------- */
 	/*  8. CONCTACT FORM
 	/* ----------------------------------------------------------- */
-		$('.submit').click(function(event){
+		$('.submit').click(function(){
 
 			var name = $('.name').val()
 			var email = $('.email').val()
