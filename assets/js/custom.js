@@ -155,12 +155,21 @@
 		});
 
 
+	/* ----------------------------------------------------------- */
+	/*  8. CONCTACT FORM
+	/* ----------------------------------------------------------- */
+		$('.submit').click(function(event){
 
+			var name = $('.name').val()
+			var email = $('.email').val()
+			var message = $('.message').val()
+
+		})
 
 
 
 	
-})( jQuery );
+});
 
 
 
