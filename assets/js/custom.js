@@ -9,7 +9,6 @@
 	5. PORTFOLIO GALLERY
 	6. PORTFOLIO POPUP VIEW ( IMAGE LIGHTBOX )
 	7. BUTTON SMOOTH SCROLL ( VIEW MY WORK )
-	8. CONTACT FORM
 
 	
 **/
@@ -45,10 +44,10 @@
 
     		if ($(window).scrollTop() > 100) {
 
-        	$('#mu-header').addClass('mu-fixed-nav');
+        	$('#iy-header').addClass('iy-fixed-nav');
         
 	    	} else {
-	        	$('#mu-header').removeClass('mu-fixed-nav');
+	        	$('#iy-header').removeClass('iy-fixed-nav');
 	    	}
 		});
 
@@ -156,21 +155,11 @@
 		});
 
 
-	/* ----------------------------------------------------------- */
-	/*  8. CONCTACT FORM
-	/* ----------------------------------------------------------- */
-		$('.submit').click(function(){
-
-			var name = $('.name').val()
-			var email = $('.email').val()
-			var message = $('.message').val()
-
-		})
 
 
 
 	
-})( jQuery );; 
+})(jQuery);
 
 
 

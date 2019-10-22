@@ -482,7 +482,8 @@ button:focus {
 	padding-top: 20px;
 }
 
-.iy-resume-btn {
+.iy-resume-btn,
+.iy-resume-btn:visited {
 	margin-top: 30px;
 	display: inline-block;
 	padding: 10px 15px;
@@ -532,10 +533,11 @@ button:focus {
 	position: relative;
 }
 
-.iy-header-dot {
+.iy-header-dot p {
 	border-radius: 0;
 	height: 3px;
-	width: 75px;
+	top: -20;
+	width: 60px;
 	display: inline-block;
 	margin-bottom: 20px;
 }
@@ -712,6 +714,10 @@ input[type=submit]:hover {
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
 /*-----------------------------------------------------------------------------------*/
+
+.text-center{
+	width: 90%;
+}
 
 .iy-contact-header {
 	display: inline;
@@ -947,7 +953,7 @@ input[type=submit]:hover {
 		font-size: 12px;
 	}
 
-		.iy-about-content-left img{
+	.iy-about-content-left img{
 	height: 500px;
 	padding-left: 25%;
 	}
