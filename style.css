@@ -728,7 +728,7 @@ input[type=submit]:hover {
 #footer {
   background: white;
   padding-bottom: 50px;
-  margin: 10% 5% 0% 5%;
+  margin: 5% 5% 0% 5%;
   float: left;
 }
 
@@ -776,7 +776,7 @@ input[type=submit]:hover {
   font-size: 12px;
   letter-spacing: 0.1em;
   font-weight: 500;
-  margin-top: 50px;
+  margin-top: 20px;
   text-transform: uppercase;
   color: navy;
 }
