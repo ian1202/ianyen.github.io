@@ -108,7 +108,7 @@
 	/*  4. MOBILE MENU CLOSE 
 	/* ----------------------------------------------------------- */ 
 
-		jQuery('.iy-menu').on('click', 'li a', function() {
+	jQuery('.iy-menu').on('click', 'li a', function() {
 		  $('.in').collapse('hide');
 		});
 
@@ -143,7 +143,7 @@
 	/*  7. BUTTON SMOOTH SCROLL ( VIEW MY WORK )
 	/* ----------------------------------------------------------- */
 
-		$('.view-my-work-btn').on('click',function (e) {
+	$('.view-my-work-btn').on('click',function (e) {
 		    e.preventDefault();
 		    var target = this.hash,
 		    $target = $(target);
@@ -152,14 +152,10 @@
 		    }, 1000, 'swing', function () {
 		        window.location.hash = target;
 			});
-		});
-
-
-
-
-
+	});
 	
 })(jQuery);
+
 
 
 

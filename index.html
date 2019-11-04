@@ -28,7 +28,9 @@
     <!-- Open Sans for body font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
     <!-- Poppins for Title -->
-  	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">  -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">  
+	<!-- AOS-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   </head>
   <body>
@@ -108,8 +110,8 @@
 				<div class="row">
 					<div class="col-md-12">
 							<div class="iy-about-header">
-								<h2 class="iy-heading-title">ABOUT ME</h2>
-									<p> My name is Ian (Yi Hang) Yen. I am a passionate Front End Developer and Data Scientist in NYC with a proven academic track record. Having completed my Business and Management diploma in top 8% of my class, graduated a BA from King's College London in top 2.3% of my cohort with a First Class Honours, and currently pursuing a MS at Cornell University, I am well versed in data analytics and information systems inside and outside of the healthcare sector. Currently seeking internship/ post-grad opportunities in the US. </p>
+								<h2 class="iy-heading-title"> ABOUT ME</h2>
+									<p data-aos="fade-zoom-in"> My name is Ian (Yi Hang) Yen. I am a passionate Front End Developer and Data Scientist in NYC with a proven academic track record. Having completed my Business and Management diploma in top 8% of my class, graduated a BA from King's College London in top 2.3% of my cohort with a First Class Honours, and currently pursuing a MS at Cornell University, I am well versed in data analytics and information systems inside and outside of the healthcare sector. Currently seeking internship/ post-grad opportunities in the US. </p>
 
 							</div>
 
@@ -117,12 +119,12 @@
 							<div class="iy-about-content">
 								<div class="row">
 									<div class="col-md-6">
-										<div class="iy-about-content-left">
+										<div class="iy-about-content-left" data-aos="fade-zoom-in">
 											<img class="iy-profile-img" src="assets/images/IMG_5142.jpg" alt="Profile Image">
 										</div>
 									</div>
 									<div class="col-md-6">
-										<div class="iy-about-content-right">
+										<div class="iy-about-content-right" data-aos="fade-zoom-in">
 
 						                  	<div class="iy-skill-section">
 						                  		<h3>Web Stack:</h3>
@@ -157,7 +159,7 @@
 						                 
 
 						                  	<!-- Download Ressume Button -->
-						                  	<a href="assets/CV - Yi Hang Ian Yen (MS).pdf"class="iy-resume-btn" target="_blank"> Download My Resume </a>
+						                  	<a href="assets/CV - Yi Hang Ian Yen (MS).pdf" class="iy-resume-btn" target="_blank" data-aos="fade-up"> Download My Resume </a>
 
 										</div>
 									</div>
@@ -184,7 +186,7 @@
 							</div>
 
 							<!-- Start Portfolio Filter -->
-							<div class="iy-portfolio-filter-area">
+							<div class="iy-portfolio-filter-area" data-aos="fade-right">
 								<ul class="iy-simplefilter">
 					                <li class="active" data-filter="all">All</li>
 					                <li data-filter="1">Data Science</li>
@@ -198,7 +200,7 @@
 								<div class="filtr-container">
 
 					                <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="1">
-					                	<div class="iy-item-thumbonail">
+					                	<div class="iy-item-thumbonail" data-aos="zoom-in">
 					                		<img class="img-responsive" src="assets/images/portfolio/FundrazrHealthProject.jpeg" alt="image">
 					                	</div>
 					                	<div class="iy-filter-item-content">
@@ -209,7 +211,7 @@
 					                </div>
 
 					                <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="1">
-					                	<div class="iy-item-thumbonail">
+					                	<div class="iy-item-thumbonail" data-aos="zoom-in">
 					                		<img class="img-responsive" src="assets/images/portfolio/familyplusProject.jpeg" alt="image">
 					                	</div>
 					                	<div class="iy-filter-item-content">
@@ -220,7 +222,7 @@
 					                </div>
 
 					                <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="3">
-					                	<div class="iy-item-thumbonail">
+					                	<div class="iy-item-thumbonail" data-aos="zoom-in">
 					                		<img class="img-responsive" src="assets/images/portfolio/cornell1.jpeg" alt="image">
 					                	</div>
 					                	<div class="iy-filter-item-content">
@@ -251,7 +253,7 @@
     <div class="container">
 		</div>
 				<div class="socials-media text-center">
-						<ul class="list-unstyled">
+						<ul class="list-unstyled" data-aos="fade-in">
 					          <span><a href="https://github.com/ian1202"><i class="ion-social-github"></i></a></span>
 					          <span><a href="mailto:ianyenyh@gmail.com"><i class="ion-email"></i></a></span>
 					          <span><a href="https://linkedin.com/in/ian-y-269b2a152"><i class="ion-social-linkedin"></i></a></span>
@@ -283,9 +285,9 @@
     <script src="assets/js/jquery.appear.js"></script>
     <!-- Custom js -->
 	<script type="text/javascript" src="assets/js/custom.js"></script>
+	<!-- AOS Library-->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script> AOS.init({duration: 1200,}) </script>
 
-	
-	
-    
   </body>
 </html>
