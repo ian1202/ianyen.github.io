@@ -118,12 +118,21 @@
 	/* ----------------------------------------------------------- */ 
 		$('.filtr-container').filterizr();
 
+
 		//Simple filter controls
 
 	    $('.iy-simplefilter li').click(function() {
 	        $('.iy-simplefilter li').removeClass('active');
 	        $(this).addClass('active');
-	    });
+		});
+		
+		$('#visit-site-button-1').click(function(){
+			window.open("https://fundrazr.com/find?category=Health", "_blank");
+		})
+
+		$('#visit-site-button-2').click(function(){
+			window.open("https://www.facebook.com/familyplushk/", "_blank");
+		})
 
 	/* ----------------------------------------------------------- */
 	/*  6. PORTFOLIO POPUP VIEW ( IMAGE LIGHTBOX )

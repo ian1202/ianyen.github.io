@@ -1,3 +1,4 @@
+  
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -58,7 +59,8 @@
 		    <div class="collapse navbar-collapse" id="navbar-collapse-1">
 		      	<ul class="nav navbar-nav iy-menu navbar-right">
 			        <li><a href="#">HOME</a></li>
-			        <li><a href="#iy-about">ABOUT</a></li>
+					<li><a href="#iy-about">ABOUT</a></li>
+					<li><a href="#iy-specialty">SPECIALTIES</a></li>
 		            <li><a href="#iy-portfolio">PROJECTS</a></li>
 		      	</ul>
 		    </div><!-- /.navbar-collapse -->
@@ -127,8 +129,12 @@
 										<div class="iy-about-content-right" data-aos="fade-zoom-in">
 
 						                  	<div class="iy-skill-section">
-						                  		<h3>Web Stack:</h3>
-
+												<h3>
+													<span class="iy-portfolio-icon-box">
+														<i class="fa fa-laptop"></i>  
+													</span>
+													Web Stack
+												</h3> 
 							                    <span>• HTML5</span>
 							                    
 							                    <span>• CSS3</span>
@@ -139,12 +145,14 @@
 
 							                    <span>• NodeJS </span>
 
-							                    <span>• REST APIs </span>
-
-												
-												
-
-							                    <h4>Data Science Stack:</h4>
+												<span>• REST APIs </span>	
+												<br>										
+							                    <h3>
+													<span class="iy-portfolio-icon-box">
+														<i class="fa fa-area-chart"></i>  
+													</span>
+													Data Science Stack
+												</h3>
 							                    
 							                    <span>• R</span>
 							                    
@@ -174,6 +182,80 @@
 		</section>
 		<!-- End About -->
 
+
+		<!-- Start Specialties -->
+		<section id="iy-specialty">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="iy-specialty-area">
+	
+								<div class="iy-specialty-header">
+									<h2 class="iy-specialty-title">MY SPECIALTIES</h2>
+									<span class="iy-header-dot"></span>
+								</div>
+	
+								<!-- Start Specialty Content -->
+								<div class="iy-specialty-content" data-aos="fade-zoom-in">
+									<div class="row">
+
+										<!-- Service Single Content -->
+										<div class="col-md-6 col-sm-6">
+											<div class="iy-specialty-content-single ">
+												<span class="iy-specialty-icon-box">
+													<i class="fa fa-desktop"></i>
+												</span>
+												<h4>Web Development</h4>
+												<p>I am able to code the front-end of a website from scratch.</p>
+											</div>
+										</div>
+										<!-- / Service Single Content -->
+	
+										<!-- Specialty Single Content -->
+										<div class="col-md-6 col-sm-6">
+											<div class="iy-specialty-content-single">
+												<span class="iy-specialty-icon-box">
+													<i class="fa fa-mobile"></i>
+												</span>
+												<h4>Health App </h4>
+												<p>I am currently undertaking a global project on mobile health apps.</p>
+											</div>
+										</div>
+										<!-- / Service Single Content -->
+	
+										<!-- Service Single Content -->
+										<div class="col-md-6 col-sm-6">
+											<div class="iy-specialty-content-single">
+												<span class="iy-specialty-icon-box">
+													<i class="fa fa-list-alt"></i>
+												</span>
+												<h4>Software Development Lifecycle</h4>
+												<p>I am familiar with Agile working methodologies (Scrum).</p>
+											</div>
+										</div>
+										<!-- / Service Single Content -->
+	
+										<!-- Service Single Content -->
+										<div class="col-md-6 col-sm-6">
+											<div class="iy-specialty-content-single">
+												<span class="iy-specialty-icon-box">
+													<i class="fa fa-line-chart"></i>
+												</span>
+												<h4>Data Science</h4>
+												<p>I have hands-on experiecne analysing and visualising real-world data.</p>
+											</div>
+										</div>
+										<!-- / Service Single Content -->
+	
+									</div>
+								</div>
+								<!-- End Service Content -->
+							</div>
+						</div>
+					</div>	
+				</div>
+			</section>
+
 		<!-- Start Portfolio -->
 		<section id="iy-portfolio"> 
 			<div class="container">
@@ -190,47 +272,63 @@
 								<ul class="iy-simplefilter">
 					                <li class="active" data-filter="all">All</li>
 					                <li data-filter="1">Data Science</li>
-					                <li data-filter="3">Web Development</li>
+									<li data-filter="3">Mobile App</li>
+									<li data-filter="4">Web Development</li>
 
 					            </ul>
 							</div>
 
 							<!-- Start Portfolio Content -->
-							<div class="iy-portfolio-content">
+							<div class="iy-portfolio-content" data-aos="fade-zoom-in">
 								<div class="filtr-container">
 
-					                <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="1">
+					                <div class="col-xs-12 col-sm-6 col-md-6 filtr-item" data-category="1">
 					                	<div class="iy-item-thumbonail" data-aos="zoom-in">
-					                		<img class="img-responsive" src="assets/images/portfolio/FundrazrHealthProject.jpeg" alt="image">
-					                	</div>
+											<a href="https://fundrazr.com/find?category=Health" target="_blank">
+												<img class="img-responsive" src="assets/images/portfolio/FundrazrHealthProject.jpeg" alt="image">
+											</a>
+					                	</div> 
 					                	<div class="iy-filter-item-content">
 					                    	<h4 class="iy-filter-item-title">Web Scrapping </h4>
-					                    	<a class="iy-filter-link" href="https://fundrazr.com/find?category=Health"><i class="fa fa-link"></i></a>
-					                    	<a class="iy-filter-imglink" href="assets/images/portfolio/FundrazrHealthProject.jpeg" title="Web Scrapping - Fundrazr (Health, Illness or Medical). Pages scrapped: 500. Dataset: 6005. CSV file is available upon request. "><i class="fa fa-search"></i></a>
+					                    	<p>Web Scrapping - Fundrazr (Health, Illness or Medical). Pages scrapped: 500. Dataset: 6005. CSV file is available upon request.</p> 
 					                    </div>
 					                </div>
 
-					                <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="1">
+					                <div class="col-xs-12 col-sm-6 col-md-6 filtr-item" data-category="1">
 					                	<div class="iy-item-thumbonail" data-aos="zoom-in">
-					                		<img class="img-responsive" src="assets/images/portfolio/familyplusProject.jpeg" alt="image">
+											<a href="https://www.facebook.com/familyplushk" target="_blank">
+												<img class="img-responsive" src="assets/images/portfolio/familyplusProject.jpeg" alt="image">
+											</a>		
 					                	</div>
 					                	<div class="iy-filter-item-content">
-					                    	<h4 class="iy-filter-item-title">Facebook Developer</h4>
-					                    	<a class="iy-filter-link" href="https://www.facebook.com/familyplushk"><i class="fa fa-link"></i></a>
-					                    	<a class="iy-filter-imglink" href="assets/images/portfolio/familyplusProject.jpeg" title="Extracted data from Family Plus Hong Kong's facebook page using Python (through Facebook Developer), and conducted data analysis using Pandas, Request etc. Data was presented in the forms of dataframes and graphs (Matplotlib). Data cannot be shared due to company's privacy policy reason."><i class="fa fa-search"></i></a>
+											<h4 class="iy-filter-item-title">Facebook Developer</h4>
+											<p>Extracted data from Family Plus Hong Kong's facebook page using Python (through Facebook Developer), and conducted data analysis using Pandas, Request etc. Data was presented in the forms of dataframes and graphs (Matplotlib). Data cannot be shared due to company's privacy policy reason</p>
 					                    </div>
 					                </div>
 
-					                <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="3">
+					                <div class="col-xs-12 col-sm-6 col-md-6 filtr-item" data-category="3">
 					                	<div class="iy-item-thumbonail" data-aos="zoom-in">
-					                		<img class="img-responsive" src="assets/images/portfolio/cornell1.jpeg" alt="image">
+											<a href="https://healthandhope.org/" target="_blank">
+												<img class="img-responsive" src="assets/images/portfolio/healthnhope.jpeg" alt="image">
+											</a>
 					                	</div>
 					                	<div class="iy-filter-item-content">
-					                    	<h4 class="iy-filter-item-title">Master's Project (In Progress)</h4>
-					                    	<a class="iy-filter-link" href="assets/images/cornell1.jpeg"><i class="fa fa-link"></i></a>
-					                    	<a class="iy-filter-imglink" href="assets/images/portfolio/cornell1.jpg" title="Master's Project"><i class="fa fa-search"></i></a>
+											<h4 class="iy-filter-item-title">Master's Project <br>(In Progress)</h4>
+											<p>Collaborate with an Health and Hope in Myanmar. The scope of this project is to provide best practices on which mobile applications to use for public health surveillance in this low-resource environment. And the final deliverable will be a tailor-made mobile app designed for accurate population surveillance on the number of people affected by several pandemic diseases. </p>
 					                    </div>
-					                </div>
+									</div>
+									
+					                <div class="col-xs-12 col-sm-6 col-md-6 filtr-item" data-category="4">
+					                	<div class="iy-item-thumbonail" data-aos="zoom-in">
+											<a href="https://ian1202.github.io/ianyen.github.io/" target="_blank">
+												<img class="img-responsive" src="assets/images/portfolio/ianyenportfolio.jpeg" alt="image">
+											</a>
+					                	</div>
+					                	<div class="iy-filter-item-content">
+											<h4 class="iy-filter-item-title">Personal Portfolio</h4>
+											<p>Coded a personal portfolio with responsive design. Stack: HTML, CSS, Javascript, Jquery, Bootstrap </p>
+					                    </div>
+									</div>
 
 					            </div>
 							</div>

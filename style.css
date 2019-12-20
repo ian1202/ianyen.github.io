@@ -1,4 +1,3 @@
-
 /* Table of Content
 ==================================================
 #BASIC TYPOGRAPHY
@@ -6,8 +5,8 @@
 #MENU 
 #FEATURED SLIDER 
 #ABOUT 
+#SPECIALTY
 #PORTFOLIO
-#TESTIMONIAL
 #FOOTER
 #RESPONSIVE STYLE
 */
@@ -77,12 +76,14 @@ h3 {
 }
 
 h4 {  
-	font-size: 24px; 
+	font-size: 20px; 
 	color: #191970; 
+	text-align: center;
 }
 
 h5 {  
-	font-size: 20px;  
+	color: black;
+	font-size: 12px;  
 }
 
 h6 {  
@@ -121,7 +122,6 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	color: ;
 }
 
 address {
@@ -146,6 +146,11 @@ button {
 button:focus {
 	outline: none;
 	border: none;
+}
+
+p{
+	color: black;
+	text-align: center;
 }
 
 /*Wordpress default class*/
@@ -231,7 +236,7 @@ button:focus {
 	left: 0;
 	right: 0;
 	top: 0;
-	margin-bottom: : -25px;
+	margin-bottom: -25px;
 	padding: 25px 0;
 	z-index: 999;
 	transition: all 0.5s;
@@ -417,18 +422,18 @@ button:focus {
 	display: inline;
 	float: left;
 	text-align: center;
-	color: black;
+	color:#191970;
 }
 
-
 .iy-about-header p{
+	color: #555;
 	width: 100%;
-	border: 3px double navy;
+	border-radius: 5px;
 	padding: 30px 100px 30px 100px;
 }
 
 .iy-heading-title{
-	display: black;
+	display: #191970;
 	padding: 30px 20px 70px 20px;
 	margin-top: 8%;
 	margin-left: auto;
@@ -448,7 +453,6 @@ button:focus {
 }
 
 
-
 .iy-about-content {
 	background-color: #fff;
 	display: inline;
@@ -465,7 +469,7 @@ button:focus {
 }
 
 .iy-about-content-left img{
-	height: 630px;
+	height: 700px;
 }
 
 .iy-about-content-right {
@@ -493,8 +497,7 @@ button:focus {
 	padding-top: 20px;
 }
 
-.iy-resume-btn,
-.iy-resume-btn:visited {
+.iy-resume-btn{
 	margin-top: 30px;
 	display: inline-block;
 	padding: 10px 15px;
@@ -510,6 +513,79 @@ button:focus {
 	color: #fff;
 }
 
+/*--------------------*/
+/* SPECIALTY */
+/*--------------------*/
+
+
+#iy-specialty {
+	display: inline;
+	float: left;
+	width: 100%;
+	border-top: 20px solid#f8f8f8;
+}
+
+.iy-specialty-area {
+	display: inline;
+	float: left;
+	padding: 100px 0;
+	width: 100%;
+}
+
+.iy-specialty-header {
+	display: inline;
+	float: left;
+	text-align: center;
+	padding: 0 120px;
+	width: 100%;
+}
+
+.iy-specialty-title {
+	color: #191970;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.iy-specialty-content{
+	display: inline;
+	float: left;
+	margin-top: 70px;
+	width: 100%;
+}
+
+.iy-specialty-content-single {
+	background-color: #f8f8f8;
+	display: inline;
+	float: left;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 25px 10px;
+	width: 100%;
+}
+
+.iy-specialty-icon-box {
+	font-size: 30px;
+	margin-bottom: 20px;
+	display: inline-block;
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	line-height: 75px;
+	color: #1b1c29;
+}
+
+.iy-specialty-content-single h4{
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.iy-specialty-content-single p {
+	font-size: 14px;
+	margin-bottom: 0;
+	color: #555;
+	letter-spacing: 0.5px;
+}
 
 
 /*--------------------*/
@@ -518,10 +594,11 @@ button:focus {
 
 
 #iy-portfolio {
-	background-color: #f8f8f8;
+	background-color: #f7f7f7;
 	display: inline;
 	float: left;
 	width: 100%;
+
 }
 
 .iy-portfolio-area {
@@ -536,109 +613,41 @@ button:focus {
 	float: left;
 	text-align: center;
 	width: 100%;
-	margin-bottom: -0px;
+	height: 50%;
 }
 
 .iy-heading-title {
-	color: #1c1b1b;
+	color: #191970;
 	position: relative;
 }
-
-
 
 .iy-portfolio-content{
 	display: inline;
 	float: left;
 	margin-top: 30px;
 	width: 100%;
+	overflow: auto;
 }
 
 .iy-portfolio-filter-area{
 	display: inline;
 	float: left;
 	width: 100%;
-	margin-top: 30px;
 }
 
-.filtr-item {
-	margin-bottom: 0px;
-	padding: 16px;
+.iy-portfolio-icon-box{
+	color: #1b1c29;
 }
 
-.filtr-item h4 {
-	font-size: 18px;
-	letter-spacing: 1px;
+.filtr-item{
+	background: white;
+	height: 40em;
+	border-radius: 5px;
+	padding: 5px;
+	border: 10px solid #f8f8f8; 
+	padding: 30px;
 }
 
-.iy-filter-item-content {
-	position: absolute;
-	left: 16px;
-	top: 16px;
-	right: 16px;
-	bottom: 16px;
-	color: #fff;
-	padding-top: 25%;
-	text-align: center;
-	-webkit-transition: all 0.5s;
-	transition: all 0.5s;
-	opacity: 0;
-}
-
-.iy-filter-item-title{
-	background-color: #191970;
-	color: white;
-	padding: 10px;
-	position: center;
-}
-
-.iy-item-thumbonail{
-	display: inline;
-	float: left;
-	overflow: hidden;
-	width: 100%;
-}
-
-.iy-item-thumbonail img{
-	-webkit-transform: scale(1);
-	        transform: scale(1);
-	-webkit-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.filtr-item:hover .iy-item-thumbonail img {
-	-webkit-transform: scale(1.1);
-	        transform: scale(1.1);
-}
-
-.filtr-item:hover .iy-filter-item-content{
-	opacity: 0.94;
-}
-
-.iy-filter-link,
-.iy-filter-imglink {
-	border-radius: 50%;
-    background: #1b1c29;
-    color: #fff;
-    height: 35px;
-    padding: 0 6px;
-    width: 35px;
-    line-height: 35px;
-    display: inline-block;
-    font-size: 15px;
-    margin-right: 10px;
-    margin-top: 5px;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-	
-}
-
-.iy-filter-link:hover,
-.iy-filter-imglink:hover,
-.iy-filter-link:focus,
-.iy-filter-imglink:focus {
-	background-color: #fff;
-} 
 
 
 /* Filter controls */
@@ -663,57 +672,6 @@ button:focus {
 .iy-simplefilter li:hover,
 .iy-simplefilter li.active {
     border-color: #fff;
-}
-
-
-
-/*-----------------------------------------------------------------------------------*/
-/*  Form
-/*-----------------------------------------------------------------------------------*/
-
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px; 
-  border: 1px solid #ccc;
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical;
-  color: #191970; 
-
-}
-
-
-input[type=submit] {
-  background-color: #191970;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: black;
-}
-
-
-#form {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-  align-content: relative;
-  width: 100%;
-  margin: auto;
-}
-
-#form label{
-	color: #191970;
-}
-
-#message{
-	height:100px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -836,7 +794,7 @@ input[type=submit]:hover {
 	}
 
 	.iy-about-header,
-	.iy-service-header,
+	.iy-specialty-header,
 	.iy-contact-header {
 		padding: 0;
 	}
@@ -853,14 +811,9 @@ input[type=submit]:hover {
 		margin-top: 50px;
 	}
 
-	.iy-filter-item-content {
-		padding-top: 18%;
+	.-item h4 {
+		font-size: 12px;
 	}
-
-	.filtr-item h4 {
-		font-size: 16px;
-	}
-
 	
 }
 	
@@ -892,9 +845,7 @@ input[type=submit]:hover {
 		display: inline-block;
 	}
 
-	.iy-filter-item-content {
-		padding-top: 25%;
-	}
+
 	
 		
 }
@@ -935,7 +886,6 @@ input[type=submit]:hover {
 	}
 
 	.iy-about-header p{
-		border: 3px double navy;
 		padding: 30px 50px 30px 50px;
 	}
 
@@ -995,7 +945,6 @@ input[type=submit]:hover {
 	}
 
 	.iy-about-header p{
-		border: 3px double navy;
 		padding: 30px;
 		width: 100%;
 	}
@@ -1014,7 +963,7 @@ input[type=submit]:hover {
 
 
 	.filtr-item h4 {
-		font-size: 14px;
+		font-size: 20px;
 	}
 
 	.iy-featured-area h1 {
@@ -1052,7 +1001,4 @@ input[type=submit]:hover {
 }
 
 	
-	
-	
-}
 
