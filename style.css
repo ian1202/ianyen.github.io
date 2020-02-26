@@ -670,8 +670,9 @@ p{
 }
 
 .iy-simplefilter li:hover,
-.iy-simplefilter li.active {
-    border-color: #fff;
+.iy-simplefilter li:active{
+	color: navy;
+	text-decoration: underline;
 }
 
 /*-----------------------------------------------------------------------------------*/
