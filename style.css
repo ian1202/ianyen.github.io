@@ -201,27 +201,6 @@ p{
 	background-color: #fff;
 }
 
-.iy-send-msg-btn {
-	border-radius: 4px;
-	border: 1px solid #888;
-	background-color: transparent;
-	color: #555;
-	font-size: 13px;
-	font-weight: 600;
-	letter-spacing: 1px;
-	text-align: center;
-	padding: 14px 24px;
-	margin-top: 10px;
-	-webkit-transition: all 0.5s;
-	transition: all 0.5s;
-	width: 130px;
-}
-
-.iy-send-msg-btn:hover,
-.iy-send-msg-btn:focus {
-	background-color: #fff;
-}
-
 
 
 /*--------------------*/
@@ -266,6 +245,8 @@ p{
 	position: fixed;
 	padding: 15px 0;
 }
+
+
 
 
 /*--------------------*/
@@ -323,6 +304,39 @@ p{
 	transform: scale(1);
 }
 
+
+/* Dropdown button*/
+  
+li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #191970;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #191970;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
 
 /*--------------------*/
 /* FEATURED SLIDER */
