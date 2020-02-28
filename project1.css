@@ -190,7 +190,7 @@ body.demos .section {
 body.demos .section-title img {
     max-width: 280px;
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
 body.demos .service-widget h3 {
@@ -336,7 +336,7 @@ html, body{
     display: block;
     position: relative;
     overflow: hidden;
-    padding-top: 30vh;
+    padding-top: 20vh;
 }
 
 .noover {
@@ -409,7 +409,7 @@ html, body{
     display: block;
     position: relative;
     margin-bottom: 60px;
-    padding: 9vh;
+    padding: 13vh;
 }
 
 .section-title p {
