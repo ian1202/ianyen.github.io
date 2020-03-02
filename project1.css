@@ -556,6 +556,7 @@ html, body{
 #about-01{
     height: 80%;
     width: 100%;
+    margin-top: 10%;
 }
 
 #about-02{
@@ -567,7 +568,6 @@ html, body{
     height: 80%;
     width: 100%;
 }
-
 
 
 
