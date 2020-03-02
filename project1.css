@@ -751,15 +751,14 @@ html, body{
         width: 100%;
     }
 
-    #about-02{
-        width: 50%;
-        height: 60%;
+    #about-02,
+    #about-03,
+    #about-04{
+        width: 90%;
+        height: 75%;
     }
 
-    #about-03{
-        width: 50%;
-        height: 60%;
-    }
+
 
     
     .about-right,

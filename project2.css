@@ -372,6 +372,10 @@ html, body{
     background-color: #448AFF;
 }
 
+.product .row{
+    height: 90vh;
+}
+
 .first-section {
     display: block;
     position: relative;
@@ -564,14 +568,14 @@ html, body{
 
 
 #about-02 {
-    height: 30%;
+    height: 100%;
     width: 70%;
     margin-left: 15%;
 }
 
 #about-03 {
-    height: 60%;
-    width: 50%;
+    height: 95%;
+    width: 45%;
 }
 
 #about-04 {
@@ -581,7 +585,7 @@ html, body{
 
 
 #about-05 {
-    width: 60%;
+    width: 90%;
     height: 50%;
 
 }
@@ -760,14 +764,17 @@ html, body{
 
     #about-05{
         width: 100%;
+        height: 100%;
     }
 
     #about-03{
-        width: 40%;
+        height: 50%;
     }
 
+
     #about-04{
-        width: 80%;
+        width: 90%;
+        height: 75%;
     }
 
     #about-02 {
@@ -838,7 +845,8 @@ html, body{
     }
 
     #about-03 {
-        height: 100%;
+        height: 80%;
+        width: 35%;
     }
 
     #about-04{
