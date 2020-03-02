@@ -258,7 +258,6 @@ p{
 	border: none;
 	border-radius: 0;
 	margin-bottom: 0;
-
 }
 
 .iy-menu {
@@ -307,9 +306,6 @@ p{
 
 /* Dropdown button*/
   
-li.dropdown {
-    display: inline-block;
-  }
   
   .dropdown-content {
     display: none;
@@ -318,9 +314,9 @@ li.dropdown {
     border-right: 2px solid white;
     border-left: 2px solid white;
     border-bottom: 2px solid white;
-    min-width: 120px;
+    min-width: 130px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+	z-index: 1;
   }
   
   .dropdown-content a {
@@ -328,7 +324,7 @@ li.dropdown {
     padding: 5px 5px;
     text-decoration: none;
     display: block;
-    text-align: left;
+	text-align: center;
   }
   
   .dropdown-content a:hover {background-color: #191970;}

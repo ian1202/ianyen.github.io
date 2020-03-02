@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,7 +24,7 @@
     <!-- Social Media Libraries -->
   	<link href="assets/ionicons/css/ionicons.css" rel="stylesheet">
     <!-- Main Style -->
-     <link href="project1.css" rel="stylesheet">
+     <link href="project2.css" rel="stylesheet">
     <!-- Open Sans for body font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
     <!-- Poppins for Title -->
@@ -79,9 +78,9 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                         <div class="section-title text-center" id="section-title01">
-                            <h3>IBM</h3>
-                            <p> "The Coronavirus Tracker" a prototype (UI and back-end) my team and I completed within 48 hours, sponsored by IBM for 
-                                <br>Cornell's <b>Health Hackathon AI</b>.</p>
+                            <h3>Google</h3>
+                            <p> "Pangea" is a prototype (UI & UX) my team and I completed within 28 hours, sponsored by Google, for
+                                <br> MIT Sloan School of Management's <b>Hack for Inclusion</b>.</p>
                         </div>
                     </div>
                 </div>
@@ -93,16 +92,18 @@
                 <div class="row align-items-center" >
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         <div class="about-left" data-aos="fade-right">
-                            <img id="about-01" src="assets/images/portfolio/Project1/coronavirustrackerpage.png" class="img-fluid" alt="" />
+                            <img id="about-01" src="assets/images/portfolio/Project2/Pangeafrontpage.png" class="img-fluid" alt="" />
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         <div class="about-right">
                             <h2>The Problem </h2>
-                            <p> With the outbreak fo the new coronavirus (COVID-19), many people are uninformed about their personal risk of contracting the disease. This has led to three major challenges: 
-                                <br> <b>(i)</b> Information and data are unspecific and only available on a population level. Uninffected individuals find it hard to relate. 
-                                <br> <b>(ii)</b> The coronavirus can be trnasmitte during the incubation period, meaning every asymptomatic patient may be a career. 
-                                <br> <b>(iii)</b> Public health authorities can only rely on patient's self-reporting of symptoms which may not always be accurate. 
+                            <p> While travel seems like an ideal way to enable people to understand different cultural perspectives, a vast proportion of tourists 
+                                never truly step outside their cultural comfort zone to better understand the culture of their destination. People travel to expand their cultural horizons, but they 
+                                often fail to accomplish this goal by failing to plan a culturally-inclusive itinerary. The most popular attractions are also the first that people find. Designing an itinerary 
+                                that balances multiple aspects of cultural understanding (such as history, local life, arts, and interaction with locals) is difficult.Therefore, we created a product
+                                for the travlers who aim to broaden their cultural horizons, but don't have the local resources necessary to find the ideal experiences
+                                to accomplish this goal. 
                             </p>
                         </div>
                     </div>
@@ -113,116 +114,97 @@
                 <div class="row align-items-center">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         <div class="about-right">
-                            <h2>Prototyping and Ideation </h2>
-                            <p> Using React-Hook geolocation APIs, we built a mobile app prototype that is able to notify the users if they are at risk of contracting the coronavirus by logging their travel history. 
-                                Our app collects and stores data of whom the users have come into proximity with in the past 14 days (incubation period). If any of the app user is tested positive for the coronavirus,
-                                the app will backtrack all the other users who have come into close contact with the infected user, and send out a notification informing them of their potential exposure.
+                            <h2>User Research </h2>
+                            <p> We first conducted two semi-structured interviews with a product manager from Google Maps and a self-identified transgender person who has experienced discrimination whilte traveling.
+                                During and ater each interview, we conducted thorough notes to capture the responses from the interviewees. After that 
+                                our team gathered together to read and reread all of the data from our own notes. Each of us also contributed to the notes based on our own travel experiences. We then annotated our data with 
+                                codes by creating a post-it for each of the codes. With the (orange) post-its, we created an <i>affinity diagram</i> by placing one created
+                                on the surface at a time, ad rearranging the cards as clusters of similar cards form.
+                                Having identified 6 major themes of clusters:
+                                <b>"Bias", "Accessibility and Barriers to Travel", "Communication", "Local Perspective", "Overtourism" and "Comfort and Connectedness"</b>
+                                we gave each cluster a descriptive label (blue post-its). Finally, we combined the labels and 
+                                created categories of categories that indicate the most common problems experiened by the travelers. 
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         <div class="about-left">
-                            <img id="about-02" src="assets/images/portfolio/Project1/about-01.png" class="img-fluid" alt="" />
+                            <img id="about-02" src="assets/images/portfolio/Project2/p2affinitydigram.jpg" class="img-fluid" alt="" />
                         </div>
                     </div>
                 </div>
                 <!-- end prototyping and ideation -->
 
+                <div class="row align-items-center">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="brainstorming">
+                            <h2>Design Requirements and Ideation </h2>
+                            <p> Of all of the labelled notes, we selected several interesting and representative post-its to deduce an interaction design requirement for each post-it. 
+                                Following this, we carried out an iterative, fast-moving collaborative process for forming design ideas, in which we switched between idea creation and critiquing.
+                                Every team member expressed preliminary design ideas and concepts by creating freehand drawings until we had gathered enough ideas.  Then, every team member proceeded to review and judge all of the generated ideas 
+                                on the excel sheet based on <i> desirable </i>,<i>viable</i>, and <i>feasible</i>. The items that received the highest overall score
+                                were then brought to the table for more spcific idea refinement. We iterated this process until we all believed our ideas had been refined. </p>
+                            <br>
+                            <img id ="about-05" src="assets/images/portfolio/Project2/brainstormingexcel.png"/>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
                 <!-- start app features -->
                 <div class="row align-items-center" >
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         <div class="about-left">
-                            <img id="about-03" src="assets/images/portfolio/Project1/about-03.png" class="img-fluid" alt=""/>
+                            <img id="about-03" src="assets/images/portfolio/Project2/Pangeaapp1.png" class="img-fluid" alt=""/>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         <div class="about-right">
-                            <h2>The App Features </h2>
-                            <br>
-                            <h3>Anonymity </h3>
-                            <p> Every user will be given a randomly generted QR code upon registration with their mobile phone number. The purpose of the QR code will be discussed below. </p>
-                            <br>
-                            <h3>Heat Map </h3>
-                            <p> There is a heat map that maps out all the asymptomatic cases– people who have the "yellow" disease status but have yet been officially tested positive– near the user so that they can be aware. </p>
+                            <h2>App Features </h2>
+                            <p> 
+                                We built an app that helps travelers build an itinerary in a way that 
+                                pushes them outside their comfort zone while balancing aspects of growth such as history, local life, arts, and interaction. 
+                                
+                                <h3>Personalized Activity Suggestions</h3>
+                                
+                                It will understand the user by pulling profile information from Google
+                                –similar to how Google create relevant advertisements based on your activities and interactions over the internet – 
+                                and learn their level of comfort for different activities as they accept and reject proposed activities. 
+                                The red number at the top right of the picture indicates the stretch level of the proposed activity (1 being most comfortable, that is activities that most closely align with what the user normally
+                                do in their own country; and 5 being the most stretch, that is activities that are furthest from the user's comfort zone).
+                                The app will be biased towards pushing users into their stretch zone.
 
+                            </p>
                         </div>
                     </div>
                 </div>
+
 
                 <div class="row align-items-center" >
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         <div class="about-left">
-                            <img id="about-04" src="assets/images/portfolio/Project1/about-02.png" class="img-fluid" alt=""/>
+                            <img id="about-04" src="assets/images/portfolio/Project2/Pangeaapp2.png" class="img-fluid" alt=""/>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         <div class="about-right">
+                                <h3> Report of Stretch Level</h3>
+                            <p> Once the user has created a collection of activities for their itinerary, a report indicating will be generated indicating <b>(i)</b> the variety and diversity of the chosen activities (Pie Chart) and <b>(ii) </b>their overall stretch level ("Trip Score").</p> 
                             <br>
-                            <br>
-                            <h3>Notification of Status Update </h3>
-                            <p> If someone who has been in contact with the user in the past 14 days is now tested positive, the user 
-                                will get a notification as well as a change of status (from green to yellow) on their phone. To ensure the integrity of the published data, the doctor of the infected person 
-                                has to communicate the information outwardly by scanning their QR code. </p>                       
+                                <h3> Learning With and About the Locals</h3>
+                            <P>In the next interface, a selection of multimedia learning materials that consist of travel blogs, videos and news articles will be provided so that the user 
+                            can better understand the culture of their destination -- including cultural norms, language, and expectations. This will help the traveler make the most of their visit as well as ensure smooth interactions with the local population.
+                            </p>
                         </div>
                     </div>
                 </div>
-
                 <!-- start app features -->                
             </div>
         </div>
-        
-        
-
-        <div id="features" class="section lb">
-            <div class="container">
-                <div class="row"> 
-                    <div class="section-title text-center" id="section-title02">
-                        <h3>Technologies Used</h3>
-                        <p> Back-end code available on my <a href="https://github.com/ian1202">Github</a></p>
-                    </div><!-- end title -->
-                </div>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="services-inner-box">
-                            <div class="ser-icon">
-                                <i class="fa fa-desktop"></i>		
-                            </div>
-                            <h2>React-Hook Geolocation APIs</h2>
-                            <p> Using the APIs, the server collects the user's travel history and match them with other proximate users </p>
-                        </div>
-                    </div><!-- end col -->
-                    <div class="col-md-6">
-                        <div class="services-inner-box">
-                            <div class="ser-icon">
-                                <i class="fa fa-cloud"></i>
-                            </div>
-                            <h2>IBM Cloud</h2>
-                            <p>The app uses the notification function available on IBM Cloud to send the user's notifications</p>
-                        </div>
-                    </div><!-- end col -->
-                    <div class="col-md-6">
-                        <div class="services-inner-box">
-                            <div class="ser-icon">
-                                <i class="fa fa-database"></i>
-                            </div>
-                            <h2>AI and Big Data</h2>
-                            <p>Data is collected and stored in the database to map out the asymptomatic cases in the areas that the  users should avoid</p>
-                        </div>
-                    </div><!-- end col -->
-                    <div class="col-md-6">
-                        <div class="services-inner-box">
-                            <div class="ser-icon">
-                                <i class="fa fa-qrcode"></i>
-                            </div>
-                            <h2>QR Code to De-identified Users</h2>
-                            <p>In compliance with HIPPA, the doctor simply have to scan the user's assigned QR code to change their disease status.</p>
-                        </div>
-                    </div><!-- end col -->
-                </div>
-            </div>
-            </div><!-- end container -->
-        </div><!-- end section -->
+    ><!-- end section -->
     </section>
 	<!-- Start Footer -->
     <section id="footer" class="text-center">

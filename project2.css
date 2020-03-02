@@ -457,16 +457,15 @@ html, body{
     margin: 0;
 }
 
-
 .section-header {
-    background-image: url("assets/images/portfolio/Project1/ibmbackground.png");
+    background-image: url("assets/images/portfolio/Project2/googleappbackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.95;
     height: 55vh;
+    background-position: bottom;
     margin-bottom: 80px;
 }
-
 
 .section.colorsection p,
 .section.colorsection h3,
@@ -531,65 +530,62 @@ html, body{
 	z-index: 0;
 }
 
-.row {
-    margin-bottom: 12%;
-}
 
 .about-right,
 .about-left {
-    padding: 80px 20px;
-    height: 80rem;
+    padding: 50px 20px;
+    height: 500px;
     width: 500px;
 }
 
 .about-right h2,
-.coronavirustrackerpage h2{
+.about-left h2,
+.brainstorming h2{
 	font-size: 32px;
 	font-weight: 600;
 }
-.about-right p{
+.about-right p,
+.about-left p,
+.brainstorming p{
 	font-size: 16px; 
-	font-weight: 200;
+	font-weight: 300;
 }
 
+.brainstorming {
+    text-align: justify;
+    margin: 8%;
+}
 
 #about-01{
-    height: 80%;
+    margin-top: 20%;
+    height: 100%;
     width: 100%;
 }
 
-#about-02{
-    height: 80%;
-    width: 100%;
+
+#about-02 {
+    height: 30%;
+    width: 70%;
+    margin-top: 20%;
+    margin-left: 20%;
 }
-#about-03,
+
+#about-03 {
+    height: 60%;
+    width: 50%;
+}
+
 #about-04 {
-    height: 80%;
+    height: 100%;
     width: 100%;
 }
 
 
+#about-05 {
+    width: 100%;
+    height: 100%;
 
-
-.ser-icon{
-	width: 90px;
-	height: 90px;
-	text-align: center;
-	line-height: 110px;
-	background: #191970;
-	box-shadow: inset 0 0 0 10px grey;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
 }
-.ser-icon i{
-	font-size: 50px;
-	color: #ffffff;
-}
-
-
 
 
 
