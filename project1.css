@@ -762,6 +762,30 @@ html, body{
 	.navbar-toggle .icon-bar {
 		width: 18px;
     }
+
+    .dropdown-content {
+		display: none;
+		position: relative;
+		float: top;
+		background-color: #191970;
+		min-width: 130px;
+		z-index: 1;
+	  }
+	  
+	.dropdown-content a {
+		color: black;
+		padding: 5px 5px;
+		text-decoration: none;
+		text-align: center;
+		float: left;
+	  }
+	  
+	.dropdown-content a:hover {background-color: #191970;}
+	  
+	.dropdown:hover .dropdown-content {
+		display: inline-block;
+	}
+ 
     
     #about-01{
         height: 60%;

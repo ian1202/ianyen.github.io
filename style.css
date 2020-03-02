@@ -871,6 +871,8 @@ p{
 	.navbar-brand {
 		padding-bottom: 10%;
 	}
+
+
 	
 	.iy-featured-slider-content {
 		left: 0;
@@ -937,6 +939,29 @@ p{
 		width: 18px;
 	}
 
+	.dropdown-content {
+		display: none;
+		position: relative;
+		float: top;
+		background-color: #191970;
+		min-width: 130px;
+		z-index: 1;
+	  }
+	  
+	.dropdown-content a {
+		color: black;
+		padding: 5px 5px;
+		text-decoration: none;
+		text-align: center;
+		float: left;
+	  }
+	  
+	.dropdown-content a:hover {background-color: #191970;}
+	  
+	.dropdown:hover .dropdown-content {
+		display: inline-block;
+	}
+ 
 	h2{
 		font-size: 25px;
 	}
@@ -1003,3 +1028,5 @@ p{
 	.iy-featured-area {
 		padding: 50% 5% 40% 5%;
 	}
+
+}
