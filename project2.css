@@ -763,7 +763,11 @@ html, body{
     }
 
     #about-03{
-        height: 100%;
+        width: 40%;
+    }
+
+    #about-04{
+        width: 80%;
     }
 
     #about-02 {
