@@ -678,7 +678,7 @@ html, body{
 
 
 /*large devices*/
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
 	
 	.navbar-default .iy-menu li a {
 		font-size: 14px;
@@ -690,7 +690,7 @@ html, body{
 
 
 /*Medium devices*/
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.navbar-default .navbar-toggle {
 		border-color: #fff;
 	}
@@ -719,7 +719,7 @@ html, body{
 }
 
 /*small devices*/
-@media (min-width: 576px){
+@media (min-width: 576px) and (max-width: 767px){
 
 	#iy-header.iy-fixed-nav {
 		padding: 10px 0px 25px 0px;
@@ -729,6 +729,29 @@ html, body{
 	.navbar-brand {
 		padding-bottom: 10%;
     }
+
+    .dropdown-content {
+		display: none;
+		position: relative;
+		float: top;
+		background-color: grey;
+		min-width: 130px;
+		z-index: 1;
+		border: none;
+	  }
+	  
+	.dropdown-content a {
+		padding: 5px 5px;
+		text-decoration: none;
+		text-align: center;
+		float: left;
+	  }
+	  
+	.dropdown-content a:hover {background-color: #191970;}
+	  
+	.dropdown:hover .dropdown-content {
+		display: inline-block;
+	}
     
     .about-right,
     .about-left {
