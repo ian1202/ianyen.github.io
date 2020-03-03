@@ -662,6 +662,9 @@ p{
 	padding: 30px;
 }
 
+.filtr-item img:hover {
+	transform: scale(1.05);
+}
 
 
 /* Filter controls */
