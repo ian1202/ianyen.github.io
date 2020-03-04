@@ -686,7 +686,8 @@ p{
 }
 
 .iy-simplefilter li:hover,
-.iy-simplefilter li:active{
+.iy-simplefilter li:active,
+.iy-simplefilter li:focus{
 	color: navy;
 	text-decoration: underline;
 }
