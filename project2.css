@@ -547,18 +547,21 @@ html, body{
 
 .about-right h2,
 .about-left h2,
-.brainstorming h2{
+.brainstorming h2,
+.closing h2{
 	font-size: 32px;
 	font-weight: 600;
 }
 .about-right p,
 .about-left p,
-.brainstorming p{
+.brainstorming p,
+.closing p{
 	font-size: 16px; 
 	font-weight: 300;
 }
 
-.brainstorming {
+.brainstorming,
+.closing {
     text-align: justify;
     margin: 8%;
 }
