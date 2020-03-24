@@ -482,6 +482,10 @@ html, body{
 }
 
 
+#clinicianinterface{
+    width: 70%;
+}
+
 .services-inner-box{
 	padding: 15px;
 	background: #ffffff;
