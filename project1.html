@@ -103,11 +103,12 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                         <div class="about-right">
-                            <h2>The Problem </h2>
-                            <p> With the outbreak fo the new coronavirus (COVID-19), many people are uninformed about their personal risk of contracting the disease. This has led to three major challenges: 
-                                <br> <b>(i)</b> Information and data are unspecific and only available on a population level. Uninffected individuals find it hard to relate. 
-                                <br> <b>(ii)</b> The coronavirus can be trnasmitted during the incubation period, meaning every asymptomatic patient may be a career. 
-                                <br> <b>(iii)</b> Public health authorities can only rely on patient's self-reporting of symptoms which may not always be accurate. 
+                            <h2>The Problems </h2>
+                            <p> With the outbreak fo the new coronavirus (COVID-19), many people are uninformed about their <i>personal</i> risk of contracting the disease. This is due to: 
+                                <br> <b>1.</b> Information is only available on a population level instead of an individual level – we know the number of cases in our city and country only, but not the number of cases specifically in our 
+                                neighborhood or in places we are planning on going today.
+                                <br> <b>2.</b> The coronavirus can be trnasmitted during the incubation period- every person can be a career without showing any symptoms and we do not and will not know whether we have personally been in contac with these people. 
+                                <br> <b>3.</b> Redundant process of tracking down exposed individuals manually– there is no systematic way to notify the strangers sitting next to you in the bus this morning that you have now tested positive for COVID-19.
                             </p>
                         </div>
                     </div>
@@ -119,9 +120,9 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                         <div class="about-right">
                             <h2>Prototyping and Ideation </h2>
-                            <p> Using React-Hook geolocation APIs, we built a mobile app prototype that is able to notify the users if they are at risk of contracting the coronavirus by logging their travel history. 
-                                Our app collects and stores data of whom the users have come into proximity with in the past 14 days (incubation period). If any of the app user is tested positive for the coronavirus,
-                                the app will backtrack all the other users who have come into close contact with the infected user, and send out a notification informing them of their potential exposure.
+                            <p> Using Esri and Google Maps geolocation APIs, I built a mobile app (web app) that is able to notify the users if they are at risk of contracting the coronavirus by logging their travel history and whom they have been in contact with. 
+                                My app collects and stores data of whom the users have come into 6-feet proximity with in the past 14 days (incubation period). 
+                                If any of the app user has tested positive for the coronavirus, the app will backtrack all the other users who have come into close contact with this infected user, and send out a notification informing them of their potential exposure.
                             </p>
                         </div>
                     </div>
@@ -145,10 +146,10 @@
                             <h2>The App Features </h2>
                             <br>
                             <h3>Anonymity </h3>
-                            <p> Every user will be given a randomly generted QR code upon registration with their mobile phone number. The purpose of the QR code will be discussed below. </p>
+                            <p> Every user will be given a randomly generted QR code upon registration with their mobile phone number. In compliance with HIPPA, the app will not collect the user's unique demographic information (name/ address/ insurance, etc) at all. Users will only need to register with their phone number, which will then automatically generate a QR code as their unique identifier.</p>
                             <br>
                             <h3>Heat Map </h3>
-                            <p> There is a heat map that maps out all the asymptomatic cases– people who have the "yellow" disease status but have yet been officially tested positive– near the user so that they can be aware. </p>
+                            <p> There is a heat map that maps out all the <i>asymptomatic</i> cases– people who have the "yellow" exposure warning status but have yet officially tested positive for COVID-19</p>
 
                         </div>
                     </div>
@@ -165,7 +166,7 @@
                             <br>
                             <br>
                             <h3>Notification of Status Update </h3>
-                            <p> If someone who has been in contact with the user in the past 14 days is now tested positive, the user 
+                            <p> If someone has now tested positive and they have been in contact with the user in the past 14 days, the user 
                                 will get a notification as well as a change of status (from green to yellow) on their phone. To ensure the integrity of the published data, the doctor of the infected person 
                                 has to communicate the information outwardly by scanning their QR code. </p>                       
                         </div>
@@ -202,8 +203,8 @@
                             <div class="ser-icon">
                                 <i class="fa fa-cloud"></i>
                             </div>
-                            <h2>IBM Cloud</h2>
-                            <p>The app uses the notification function available on IBM Cloud to send the user's notifications</p>
+                            <h2>Esri Map</h2>
+                            <p>Esri APIs are used to map out the <i>assymptomatic</i> cases in different neighborhoods so that the users can avoid going to those places</p>
                         </div>
                     </div><!-- end col -->
                     <div class="col-md-6">
@@ -211,8 +212,8 @@
                             <div class="ser-icon">
                                 <i class="fa fa-database"></i>
                             </div>
-                            <h2>AI and Big Data</h2>
-                            <p>Data is collected and stored in the database to map out the asymptomatic cases in the areas that the  users should avoid</p>
+                            <h2>MongoDB Database</h2>
+                            <p>Data is collected and stored in MongoDB database to map out the asymptomatic cases in the areas that the  users should avoid</p>
                         </div>
                     </div><!-- end col -->
                     <div class="col-md-6">
@@ -221,7 +222,7 @@
                                 <i class="fa fa-qrcode"></i>
                             </div>
                             <h2>QR Code to De-identified Users</h2>
-                            <p>In compliance with HIPPA, the doctor simply have to scan the user's assigned QR code to change their disease status.</p>
+                            <p>For information integrity, in order for the infected users to push a notification to the contacted users, the doctor will need to scan the user's QR code and verify with his clinic's information. Again, due to stigma and HIPPA regulations, no demographic information of the positive- patient will be elicited in the process.</p>
                         </div>
                     </div><!-- end col -->
                 </div>
