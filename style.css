@@ -677,7 +677,7 @@ p{
 	margin: 0 5px;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 600;
 	letter-spacing: 1px;
 }
@@ -685,10 +685,11 @@ p{
 
 .iy-simplefilter li:hover,
 .iy-simplefilter li:active,
-.iy-simplefilter li:focus{
-	color: navy;
-	text-decoration: underline;
+.iy-simplefilter li:focus,
+.active {
+	color: navy !important;
 }
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
