@@ -466,7 +466,8 @@ html, body{
 	font-weight: 200;
 }
 
-.wireframe{
+.wireframe,
+.database{
     margin: 10%;
 }
 
