@@ -454,14 +454,20 @@ html, body{
 
 .about-right h2,
 .about-left h2,
+.about-center h2,
 .coronavirustrackerpage h2{
 	font-size: 32px;
 	font-weight: 600;
 }
 .about-right p,
-.about-left p{
+.about-left p,
+.about-center p{
 	font-size: 16px; 
 	font-weight: 200;
+}
+
+.wireframe{
+    margin: 10%;
 }
 
 
