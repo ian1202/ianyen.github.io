@@ -108,7 +108,7 @@
                                 <br> <b>1.</b> Information is only available on a population level instead of an individual level – we know the number of cases in our city and country only, but not the number of cases specifically in our 
                                 neighborhood or in places we are planning on going today.
                                 <br> <b>2.</b> The coronavirus can be transmitted during the incubation period- every person can be a career without showing any symptoms and we do not know whether we have personally been in contact with these people. 
-                                <br> <b>3.</b> Redundant process of tracking down exposed individuals manually– there is no systematic way to notify the strangers sitting next to you in the bus this morning that you have now tested positive for COVID-19.
+                                <br> <b>3.</b> Redundant process of tracking down exposed individuals manually– there is no systematic way to notify the strangers who sat next to you on the bus this morning that you have now tested positive for COVID-19.
                             </p>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
                             <h3>Notification of Status Update </h3>
                             <p> If someone has now tested positive and they have been in contact with the user in the past 14 days, the user 
                                 will get a notification as well as a change of status (from green to red) on their phone. To ensure the integrity of the published data, the doctor of the infected person 
-                                has to communicate the information outwardly by scanning their QR code. </p>                       
+                                has to verify the test result by scanning their QR code. </p>                       
                         </div>
                     </div>
                 </div>
@@ -174,10 +174,10 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                         <div class="about-right">
                             <h3>Anonymity </h3>
-                            <p> Every user will be given a randomly generted QR code upon registration with their mobile phone number. In compliance with HIPPA, the app will not collect the user's unique demographic information (name/ address/ insurance, etc) at all. Users will only need to register with their phone number, which will then automatically generate a QR code as their unique identifier.</p>
+                            <p> In compliance with HIPPA, the app will not collect the user's unique demographic information (name/ address/ insurance, etc) at all. Users will only need to register with their phone number, which will then automatically generate a QR code as their unique identifier.</p>
                             <br>
                             <h3>Heat Map </h3>
-                            <p> There is a heat map that maps out all the <i>asymptomatic</i> cases in the user's neighborhood– people who have the "yellow" exposure warning status but have yet officially tested positive for COVID-19</p>
+                            <p> The app consists of a heat map that maps out all the <i>asymptomatic</i> cases in the user's neighborhood– that is, people who have the red colour (the exposure warning status) on their phone but have yet officially tested positive for COVID-19</p>
 
                         </div>
                     </div>
@@ -189,8 +189,8 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                         <div class="about-right">
                             <h2>Clinician's Interface </h2>
-                            <p> The interface on the right appears on the clinician's phone after they scan the user's QR code. 
-                                For information integrity, in order for the positively tested patient to push a notification to the exposed users, a clinician is required to scan the user's QR code to verify the information.
+                            <p> Upon scanning the patient's QR code, the clinician will see this interface on their phone. 
+                                To verify the test result, the clinician simply need to fill out the information about their clinics. 
                                 In consideration of the stigma around COVID-19 and HIPPA regulations, no identifiable demographic information of the positive- patient will be asked in the process.
                                 This feature prevents any users from creating false alarms or public panic by faking a positive test result. 
                             </p>
@@ -207,8 +207,8 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                         <div class="about-center">
                             <h2>Database Design </h2>
-                            <p> For this prototype, I have built a Restful API in Node.JS to push the geolocation coordinates of the users to MongoDB (a cloud database). The database
-                                consists of all the registered user profiles (as seen on the left hand side below "coroknow_coordinates"). In each of the profiles (User 103 as an example in the figure), there is a log of all the IDs of the users
+                            <p> For this prototype, I have built a RESTful API using Node.JS to "post" the geolocation coordinates of the users to MongoDB (a cloud database). The database
+                                comprises of all the registered user profiles (as seen on the left hand side below "coroknow_coordinates"). In each of the profiles ("User 103" as an example), there is a log of all the IDs of the users
                                 who have been in the 6-feet disrance of that user. The longtitude and latitude coordinates indicate the location at which they came into contact. </p>
 
                         </div>
