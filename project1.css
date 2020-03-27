@@ -770,13 +770,19 @@ html, body{
         height: 75%;
     }
 
-
+    #about-03{
+        margin: -20% 0;
+    }
 
     
     .about-right,
     .about-left {
         padding: 10px 10px;
         height: 50rem;
+    }
+
+    #clinicianinterface{
+        margin-top: -12%;
     }
 
     
