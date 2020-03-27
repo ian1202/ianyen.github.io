@@ -406,7 +406,7 @@ html, body{
     display: block;
     position: relative;
     margin-top: 80px;
-    height: 20vh;
+    height: 27vh;
 }
 
 #section-title02 h3{
@@ -448,7 +448,6 @@ html, body{
 
 .about-right {
     padding: 80px 20px;
-    height: 60rem;
     width: 500px;
 }
 
@@ -477,11 +476,10 @@ html, body{
 #ideation{
     height: 50%;
     width: 100%;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 #functionalities{
-
     width: 100%;
 }
 #anonymity,
@@ -763,15 +761,15 @@ html, body{
     #theproblems,
     #database,
     #ideation{
-        height: 60%;
+        height: 100%;
         width: 100%;
     }
 
     #functionalities,
     #anonymity,
     #features{
-        width: 90%;
-        height: 75%;
+        width: 100%;
+        height: 100%;
     }
 
     #anonymity{
