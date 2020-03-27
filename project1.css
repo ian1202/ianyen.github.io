@@ -472,19 +472,21 @@ html, body{
 }
 
 
-#about-01{
+#theproblems,
+#database,
+#ideation{
     height: 50%;
     width: 100%;
     margin-top: 10rem;
 }
 
-#about-02{
+#functionalities{
 
-    width: 120%;
+    width: 100%;
 }
-#about-03,
-#about-04 {
-    width: 120%;
+#anonymity,
+#features {
+    width: 100%;
 }
 
 
@@ -758,19 +760,21 @@ html, body{
 	}
  
     
-    #about-01{
+    #theproblems,
+    #database,
+    #ideation{
         height: 60%;
         width: 100%;
     }
 
-    #about-02,
-    #about-03,
-    #about-04{
+    #functionalities,
+    #anonymity,
+    #features{
         width: 90%;
         height: 75%;
     }
 
-    #about-03{
+    #anonymity{
         margin: -20% 0;
     }
 
