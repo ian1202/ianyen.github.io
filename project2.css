@@ -403,31 +403,6 @@ html, body{
 
 
 
-
-#section-title01 {
-    display: block;
-    position: relative;
-    padding: 12rem 0;
-}
-
-#section-title01 h3 {
-        font-size: 42px;
-        font-weight: 600;
-        line-height: 62px;
-        margin: 0 0 25px;
-        padding: 0;
-        text-transform: none;
-        color: white;
-}
-
-#section-title01 p {
-    color: white;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 33px;
-    margin: 0;
-}
-
 #section-title02 {
     display: block;
     position: relative;
@@ -455,12 +430,12 @@ html, body{
 }
 
 .section-header {
-    background-image: url("assets/images/portfolio/Project2/googleappbackground.jpg");
+    background-image: url("assets/images/portfolio/Project2/googleappbackground.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     opacity: 0.95;
-    height: 55vh;
-    background-position: bottom;
+    height: 80vh;
     margin-bottom: 80px;
 }
 
