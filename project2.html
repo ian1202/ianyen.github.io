@@ -8,7 +8,14 @@
     <!-- Ian Yen's Favicon -->
     <link rel="shortcut icon" type="image/icon" href="assets/images/ianyen.favicon.ico"/> 
     <!-- Slick slider Stylesheet-->
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <!-- Animate css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/>  
     <!-- Bootstrap Stylesheet-->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Gallery Lightbox -->
@@ -177,6 +184,69 @@
                         </div>
                     </div>
                 </div>
+
+
+
+                <!-- Start screenshot -->
+                <section id="screenshot">
+                    <div class="container slider">
+                    <div class="row">
+                        <div class="col-md-12 about-center">
+                        <div class="title-area wow fadeInUp">
+                            <h2 class="title">Screnshots of the App</h2>
+                        </div>
+                        </div>
+                        <div class="col-md-12">
+                        <div class="screenshots-area">
+                            <ul class="screenshots-slide">
+                            <li class="col-md-3 wow fadeInLeft">
+                            <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio/Project2/screen1.png">
+                                <img src="assets/images/portfolio/Project2/screen1.png" alt="app screenshot">
+                                <div class="view-btn-area">
+                                    <span class="fa fa-search view-btn"></span>
+                                </div>
+                            </a>
+                            </li>
+                            <li class="col-md-3 wow fadeInLeft">
+                                <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio/Project2/screen2.png">
+                                    <img src="assets/images/portfolio/Project2/screen2.png" alt="app screenshot">
+                                    <div class="view-btn-area">
+                                    <span class="fa fa-search view-btn"></span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="col-md-3 wow fadeInLeft">
+                                <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio/Project2/screen3.png">
+                                    <img src="assets/images/portfolio/Project2/screen3.png" alt="app screenshot">
+                                <div class="view-btn-area">
+                                    <span class="fa fa-search view-btn"></span>
+                                </div>
+                            </a>
+                            </li>
+                            <li class="col-md-3 wow fadeInLeft">
+                                <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio/Project2/screen4.png">
+                                    <img src="assets/images/portfolio/Project2/screen4.png" alt="app screenshot">
+                                <div class="view-btn-area">
+                                    <span class="fa fa-search view-btn"></span>
+                                </div>
+                            </a>
+                            </li>
+                            <li class="col-md-3 wow fadeInLeft">
+                                <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio/Project2/screen5.png">
+                                    <img src="assets/images/portfolio/Project2/screen5.png" alt="app screenshot">
+                                <div class="view-btn-area">
+                                    <span class="fa fa-search view-btn"></span>
+                                </div>
+                            </a>
+                            </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+                <!-- End screenshot -->
+
     
                 <!-- start app features -->
                 <div class="row align-items-center" >
@@ -289,21 +359,90 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>
-	<!-- Slick slider -->
-    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <!-- Custom js -->
+    <script type="text/javascript" src="assets/js/custom.js"></script>
     <!-- Filterable Gallery js -->
     <script type="text/javascript" src="assets/js/jquery.filterizr.min.js"></script>
     <!-- Gallery Lightbox -->
     <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
-	<!-- Featured Slider -->
-    <script type="text/javascript" src="assets/js/typed.min.js"></script>
     <!-- On scroll JS  -->
     <script src="assets/js/jquery.appear.js"></script>
-    <!-- Custom js -->
-	<script type="text/javascript" src="assets/js/custom.js"></script>
 	<!-- AOS Library-->
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script> AOS.init({duration: 3000}) </script>
+    <!-- Add fancyBox -->        
+    <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
+    <!-- Wow animation -->
+    <script type="text/javascript" src="assets/js/wow.js"></script> 
+    <!-- Slick slider -->
+    <script type="text/javascript" src="assets/js/slick.js"></script>
+    <script> 
+      
+    /* ----------------------------------------------------------- */
+	/*  SCREEN SLIDER (SLICK SLIDER)
+	/* ----------------------------------------------------------- */
+
+	jQuery('.screenshots-slide').slick({
+		dots: true,
+		infinite: true,
+		arrows:true, 
+		 centerMode: true,
+		  centerPadding: '60px',  
+		slidesToShow: 3,
+		responsive: [
+		  {
+			breakpoint: 1024,
+			settings: {
+			  slidesToShow: 2,
+			  slidesToScroll: 2,
+			  infinite: true,
+			  dots: true
+			}
+		  },
+		  {
+			breakpoint: 600,
+			settings: {
+			  slidesToShow: 1,
+			  slidesToScroll: 1
+			}
+		  },
+		  {
+			breakpoint: 480,
+			settings: {
+			  slidesToShow: 1,
+			  slidesToScroll: 1
+			}
+		  }
+		  // You can unslick at a given breakpoint now by adding:
+		  // settings: "unslick"
+		  // instead of a settings object
+		]
+	  });
+  
+	  /* ----------------------------------------------------------- */
+	  /*  FANCYBOX 
+	  /* ----------------------------------------------------------- */
+  
+	  jQuery(document).ready(function() {
+		  $(".fancybox").fancybox();
+	  });	 
+
+
+	/* ----------------------------------------------------------- */
+	/*  WOW ANIMATION
+	/* ----------------------------------------------------------- */ 
+
+	wow = new WOW(
+		{
+		  animateClass: 'animated',
+		  offset:       100,
+		  callback:     function(box) {
+			console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+		  }
+		}
+	  );
+	  wow.init();
+      </script>
 
   </body>
 </html>

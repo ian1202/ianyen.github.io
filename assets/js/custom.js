@@ -155,6 +155,71 @@
 	});
 
 	
+	/* ----------------------------------------------------------- */
+	/*  3. SCREEN SLIDER (SLICK SLIDER)
+	/* ----------------------------------------------------------- */
+
+	jQuery('.screenshots-slide').slick({
+		dots: true,
+		infinite: true,
+		arrows:true, 
+		 centerMode: true,
+		  centerPadding: '60px',  
+		slidesToShow: 3,
+		responsive: [
+		  {
+			breakpoint: 1024,
+			settings: {
+			  slidesToShow: 2,
+			  slidesToScroll: 2,
+			  infinite: true,
+			  dots: true
+			}
+		  },
+		  {
+			breakpoint: 600,
+			settings: {
+			  slidesToShow: 1,
+			  slidesToScroll: 1
+			}
+		  },
+		  {
+			breakpoint: 480,
+			settings: {
+			  slidesToShow: 1,
+			  slidesToScroll: 1
+			}
+		  }
+		  // You can unslick at a given breakpoint now by adding:
+		  // settings: "unslick"
+		  // instead of a settings object
+		]
+	  });
+  
+	  /* ----------------------------------------------------------- */
+	  /*  4. FANCYBOX 
+	  /* ----------------------------------------------------------- */
+  
+	  jQuery(document).ready(function() {
+		  $(".fancybox").fancybox();
+	  });	 
+
+
+	/* ----------------------------------------------------------- */
+	/*  7. WOW ANIMATION
+	/* ----------------------------------------------------------- */ 
+
+	wow = new WOW(
+		{
+		  animateClass: 'animated',
+		  offset:       100,
+		  callback:     function(box) {
+			console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+		  }
+		}
+	  );
+	  wow.init();
+  
 
 	
 })(jQuery);
