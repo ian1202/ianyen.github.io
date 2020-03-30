@@ -367,10 +367,10 @@
                 </div>
 
                 <!-- start persona 1 -->
-                <div class="row align-items-center" >
+                <div class="row align-items-center personas" >
                     <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                         <div class="about-left" data-aos="fade-right">
-                            <img id="persona1" src="assets/images/portfolio/Casestudy1/persona1.png" class="img-fluid" alt=""/>
+                            <img src="assets/images/portfolio/Casestudy1/persona1.png" class="img-fluid" alt=""/>
                             <br>
                             <p style="color: black">Zac is a 42 year-old Consultant who works in the financial industry. He is married and have three kids. Their family live in New York City. </p>
                         </div>
@@ -391,10 +391,10 @@
                 <!-- end persona 1 -->
 
                 <!-- start persona 2 -->
-                <div class="row align-items-center" >
+                <div class="row align-items-center personas" >
                     <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                         <div class="about-left" data-aos="fade-right">
-                            <img id="persona1" src="assets/images/portfolio/Casestudy1/persona2.png" class="img-fluid" alt=""/>
+                            <img src="assets/images/portfolio/Casestudy1/persona2.png" class="img-fluid" alt=""/>
                             <br>
                             <p style="color: black">Gregory is a 29 year-old Salesman who works in the technology industry. He is single and the only child in his family. Born in Michigan though now lives in New York City.</p>
                         </div>
@@ -458,11 +458,82 @@
                 </div> 
             </div>
 
+        <div id="screenshots" class="section wb">
+                <div class="container">
+                    <div class="about-center section-title text-center">
+                        <h2>Screenshots of the App</h2>
+                        <p class="lead"> I then created a series of wireframes for my product.</p>
+                    </div><!-- end title -->
+        
+                    <div class="owl-screenshots swiper-container">
+                        <div class="mobilescreen-image"></div>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="service-widget">
+                                    <div class="post-media entry wow fadeIn">
+                                        <img src="assets/images/portfolio/Casestudy1/screen1.png" alt="" class="img-fluid img-rounded">
+                                        <div class="magnifier"></div>
+                                    </div>
+                                </div><!-- end service -->
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-widget">
+                                    <div class="post-media entry wow fadeIn">
+                                        <img src="assets/images/portfolio/Casestudy1/screen2.png" alt="" class="img-fluid img-rounded">
+                                        <div class="magnifier"></div>
+                                    </div>
+                                </div><!-- end service -->
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-widget">
+                                    <div class="post-media entry wow fadeIn">
+                                        <img src="assets/images/portfolio/Casestudy1/screen3.png" alt="" class="img-fluid img-rounded">
+                                        <div class="magnifier"></div>
+                                    </div>
+                                </div><!-- end service -->
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-widget">
+                                    <div class="post-media entry wow fadeIn">
+                                        <img src="assets/images/portfolio/Casestudy1/screen4.png" alt="" class="img-fluid img-rounded">
+                                        <div class="magnifier"></div>
+                                    </div>
+                                </div><!-- end service -->
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-widget">
+                                    <div class="post-media entry wow fadeIn">
+                                        <img src="assets/images/portfolio/Casestudy1/screen5.png" alt="" class="img-fluid img-rounded">
+                                        <div class="magnifier"></div>
+                                    </div>
+                                </div><!-- end service -->
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-widget">
+                                    <div class="post-media entry wow fadeIn">
+                                        <img src="assets/images/portfolio/Casestudy1/screen6.png" alt="" class="img-fluid img-rounded">
+                                        <div class="magnifier"></div>
+                                    </div>
+                                </div><!-- end service -->
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </div>
+                    </div><!-- end row -->			
+                </div><!-- end container -->
+            </div><!-- end section -->
+  </div>
+</div>
+
             <div class="container midfi">
                 <div class="row align-items-center">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                         <div class="about-center">
-                            <h2> Mid-Fidelity Prototype</h2>
                             <img src="assets/images/portfolio/Casestudy1/midfigp1.png"/>
                             <img src="assets/images/portfolio/Casestudy1/midfigp2.png"/>
                             <img src="assets/images/portfolio/Casestudy1/midfigp3.png"/>
@@ -473,9 +544,6 @@
                     </div>
                 </div> 
             </div>
-  </div>
-</div>
-
 
 
 
@@ -524,7 +592,48 @@
 	<script type="text/javascript" src="assets/js/custom.js"></script>
 	<!-- AOS Library-->
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"> </script>
-	<script> AOS.init({duration: 2000}) </script>
+    <script> AOS.init({duration: 2000}) </script>
+    <!-- Swiper-->
+    <script src="assets/js/swiper.min.js"></script>
+    <script>
+		var swiper = new Swiper('.swiper-container', {
+			loop: true,
+			effect: 'coverflow',
+			centeredSlides: true,
+			loopFillGroupWithBlank: true,
+			slidesPerView: 3,
+            initialSlide: 3,
+            keyboardControl: true,
+            mousewheelControl: false,
+            lazyLoading: true,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			breakpoints: {
+                1199: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                },
+                991: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                },
+                767: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                575: {
+                    slidesPerView: 1,
+                    spaceBetween: 3,
+                }
+            }
+		});
+	  </script>
 
   </body>
 </html>
