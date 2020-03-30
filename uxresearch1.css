@@ -479,6 +479,10 @@ html, body{
     width: 90%;
 }
 
+.sketches img{
+    width: 100%;
+}
+
 
 .lowfi img,
 .midfi img {
