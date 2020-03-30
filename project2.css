@@ -371,7 +371,7 @@ html, body{
 }
 
 .product .row{
-    margin: 10%;
+    margin: 10% 0;
 }
 
 .first-section {
@@ -562,7 +562,6 @@ html, body{
     height: 50%;
 
 }
-
 
 
 
