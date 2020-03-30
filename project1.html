@@ -232,6 +232,103 @@
                 </div>
             </div>
         </div>
+
+
+        <div id="screenshots" class="section wb">
+            <div class="container">
+                <div class="about-center section-title text-center">
+                    <h2>Screenshots</h2>
+                    <br>
+                </div><!-- end title -->
+    
+                <div id="default" class="row clearfix zenith_slider">
+                      
+                    <!--The First row-->  
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 left-row">
+                        <ul class="screenshots-left">
+                            <li class="highlight lhgh" data-index="0">
+                                <i class="flaticon-wordpress-logo effect-1" ></i>
+                                <div class="fl-inner">
+                                    <h4>Welcome Page</h4>
+                                    <p>Welcome to CoroKnow – Know your risks</p>
+                                </div>
+                            </li><!-- .highlight .left-row -->
+    
+                            <li class="highlight lhgh" data-index="1">
+                                <i class="flaticon-windows effect-1"></i>
+                                <div class="fl-inner">
+                                    <h4>Registration Page</h4>
+                                    <p>Your Anontmity is always our priority.</p>
+                                </div>
+                            </li><!-- .highlight .left-row -->
+    
+                            <li class="highlight lhgh" data-index="2">
+                                <i class="flaticon-price-tag effect-1"></i>							
+                                <div class="fl-inner">
+                                    <h4>Your Status</h4>
+                                    <p>What a Clear status looks like- indicating the user has low risks.</p>
+                                </div>
+                            </li><!-- .highlight .left-row -->
+                            
+                        </ul>
+                    </div><!-- .row .left-row -->
+                  
+                    <div class="highlights-phone col-lg-4 col-md-4 col-sm-12 col-xs-12 wht">
+                      
+                        <div class="phone-holder">
+                           <div id="fon"></div>
+                           <div class="hgh-linner hgi" data-index="0">
+                                <img width="190" height="320" src="assets/images/portfolio/Project1/screen1.png" class="attachment-highlight wp-post-image" alt="screen" />    
+                            </div>
+                            <div class="hgh-linner hgi" data-index="1">
+                                <img width="234" height="398" src="assets/images/portfolio/Project1/screen2.png" class="attachment-highlight wp-post-image" alt="screensdst" />    
+                            </div>
+                            <div class="hgh-linner hgi" data-index="2">
+                                <img width="234" height="398" src="assets/images/portfolio/Project1/screen3.png" class="attachment-highlight wp-post-image" alt="screen_09" />    
+                            </div>
+                            <div class="hgh-rinner hgi" data-index="4">
+                                <img width="234" height="398" src="assets/images/portfolio/Project1/screen4.png" class="attachment-highlight wp-post-image" alt="screen_08" />    
+                            </div>
+                            <div class="hgh-rinner hgi" data-index="5">
+                                <img width="234" height="398" src="assets/images/portfolio/Project1/screen5.png" class="attachment-highlight wp-post-image" alt="screen_06" />    
+                            </div>
+                            <div class="hgh-rinner hgi" data-index="6">
+                                <img width="234" height="398" src="assets/images/portfolio/Project1/screen6.png" class="attachment-highlight wp-post-image" alt="screen_06" />    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!--The Second row-->
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 right-row">
+                        <ul class="screenshots-right">
+                            <li class="highlight rhgh" data-index="4">
+                                <i class="flaticon-pantone effect-1"></i>							 
+                                <div class="fr-inner">
+                                    <h4>Your Status</h4>
+                                    <p>What a Caution status looks like- indicating the user may be at risks.</p>
+                                </div>
+                            </li><!-- .highlight .left-row -->
+                            <li class="highlight rhgh" data-index="5">
+                                <i class="flaticon-cloud-computing effect-1"></i>
+                                <div class="fr-inner">
+                                    <h4>Heatmap</h4>
+                                    <p>A map that shows asymptomatic cases in the neighborhood of the user.</p>
+                                </div>
+                            </li><!-- .highlight .left-row -->
+                            <li class="highlight rhgh" data-index="6">
+                                <i class="flaticon-line-graph effect-1"></i>
+                                <div class="fr-inner">
+                                    <h4>QR Code</h4>
+                                    <p>A clinician is required to scan the code to verify the test result. </p>
+                                </div>
+                            </li><!-- .highlight .left-row -->
+
+                        </ul>
+                    </div><!-- .row .left-row -->
+                  
+                </div><!--Highlights close-->
+            </div><!-- end container -->
+        </div><!-- end section -->
         
 
         <div id="features" class="section lb">
@@ -358,7 +455,19 @@
 	<script type="text/javascript" src="assets/js/custom.js"></script>
 	<!-- AOS Library-->
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"> </script>
-	<script> AOS.init({duration: 3000}) </script>
+    <script> AOS.init({duration: 2500}) </script>
+    <!-- Zenith Slider-->
+    <script src="assets/js/zenith.js"></script>
+	<script>
+		$('#default').zenith({
+			layout: 'default' , 
+			slideSpeed: 450, 
+			autoplaySpeed: 2000
+		});
+    </script>
+    <!-- Carousel-->
+    <scrip src="assets/js/owl.carousel.js"></scrip>
+    
 
   </body>
 </html>

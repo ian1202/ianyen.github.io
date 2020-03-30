@@ -11,9 +11,11 @@
 @import url(assets/css/prettyPhoto.css);
 @import url(assets/css/owl.carousel.css);
 @import url(assets/css/font-awesome.min.css);
+@import url(css/flaticon.css);
 @import AOS from 'aos';
 @import 'aos/dist/aos.css'; 
 AOS.init();
+@import url(css/owl.carousel.css);
 
 
 
@@ -298,6 +300,9 @@ html, body{
 }
 
 
+
+
+
 /*------------------------------------------------------------------
     SECTIONS
 -------------------------------------------------------------------*/
@@ -514,6 +519,311 @@ html, body{
 .qrcontent{
     margin: 0 auto;
     text-align: center;
+}
+
+
+
+
+/*------------------------------------------------------------------
+    Screenshots
+-------------------------------------------------------------------*/
+
+
+#screenshots li {
+    display: table;
+    width: 100%;
+    margin: 35px 0;
+    cursor: pointer;
+}
+
+.screenshots-left,
+.screenshots-right {
+    padding: 0 10px;
+}
+
+.screenshots-right li:last-child,
+.screenshots-left li:last-child {
+    margin-bottom: 0px;
+    padding-bottom: 0 !important;
+}
+
+.screenshots-right li i,
+.screenshots-left li i {
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
+    display: table;
+    border-radius: 6px;
+    font-size: 26px;
+	color: #ffffff;
+    background-color: #AD1457;
+    margin: 0 auto 22px;
+    position: relative;
+    text-align: center;
+    z-index: 55;
+    transition: .4s;
+    padding: 0;
+}
+
+#screenshots i img {
+    display: table;
+    margin: 0 auto;
+}
+
+.screenshots-left li i:before,
+.screenshots-right li i:before {
+    text-align: center;
+}
+
+.screenshots-right li i .ico-current,
+.screenshots-left li i .ico-current {
+    opacity: 1;
+    transition: .4s;
+    visibility: visible;
+}
+
+.screenshots-right li i .ico-hover,
+.screenshots-left li i .ico-hover {
+    opacity: 0;
+    transition: .4s;
+    visibility: hidden;
+    top: 19px;
+}
+
+.screenshots-right li:hover .ico-current,
+.screenshots-left li:hover .ico-current {
+    opacity: 0;
+    transition: .4s;
+    visibility: hidden;
+}
+
+.screenshots-right li:hover .ico-hover,
+.screenshots-left li:hover .ico-hover {
+    opacity: 1;
+    transition: .4s;
+    visibility: visible;
+}
+
+.screenshots-right i {
+    float: left;
+}
+
+.fr-inner {
+    margin-left: 90px;
+}
+
+.screenshots-left i {
+    float: right;
+}
+
+.fl-inner {
+    text-align: right;
+    margin-right: 90px;
+}
+
+#screenshots h4 {
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 19px;
+	padding-bottom: 15px;
+}
+
+
+
+
+
+/*------------------------------------------------------------------
+    Zenith Slider
+-------------------------------------------------------------------*/
+
+* { box-sizing: border-box; }
+.zenith_slider:before,
+.zenith_slider:after,
+.row:before,
+.row:after{
+  display: table;
+  content: " ";
+}
+.zenith_slider:after,
+.row:after{
+  clear:both;
+}
+
+ .zenith_slider .row{
+    z-index: 2;
+     position: relative;
+     min-height: 1px;
+     padding-right: 15px;
+     padding-left: 15px;
+     width: 31.777777%;
+     margin-right: -15px;
+     margin-left: -15px;
+}
+ .zenith_slider ul {
+    list-style: none;
+     z-index: 2;
+}
+
+ .highlight h4:after{
+    content: ' ';
+     display: block;
+     position: absolute;
+     bottom: 0;
+     width: 0;
+     left: 0;
+     margin: 0px;
+     height: 2px;
+     background: #AD1457;
+     visibility: hidden;
+     transition: all 0.45s ease;
+     -webkit-transition: all 0.45s ease;
+     -moz-transition: all 0.45s ease;
+}
+ .highlight.active h4:after{
+    width: 100%;
+    left:0;
+    visibility: visible;
+}
+
+ .highlight span {
+     text-align: center;
+     display: inline-block;
+     vertical-align: top;
+     padding: 10px 12px;
+     background: rgba(9,16,26,0.85);
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     background-image: linear-gradient(0deg, rgba(92,92,92,0)34%, rgba(92,92,92, 0.4)24%);
+     -moz-background-image: linear-gradient(0deg, rgba(92,92,92,0)34%, rgba(92,92,92, 0.4)24%);
+     -webkit-background-image: linear-gradient(0deg, rgba(92,92,92,0)34%, rgba(92,92,92, 0.4)24%);
+     -o-background-image: linear-gradient(0deg, rgba(92,92,92,0)34%, rgba(92,92,92, 0.4)24%);
+    transition: color 0.5s ease-in;
+     -webkit-transition: color 0.5s ease-in;
+     -ms-transition: color 0.5s ease-in;
+     -moz-transition: color 0.5s ease-in;
+     -o-transition: color 0.5s ease-in;
+}
+ .highlight-title {
+    text-align: center;
+     text-transform: uppercase;
+     width: 105%
+}
+
+ .highlights-phone{
+     padding: 0 !important;
+ }
+
+ .phone-holder{
+     display: block;
+     height: 700px;
+     position: relative;
+     top: 0px;
+     left: 0px;
+     width: 300px;
+     margin: auto;
+     overflow: hidden;
+}
+ #fon{
+    position: absolute;
+     top: 0;
+     left: -1px;
+     width: 100%;
+     height: 700px;
+     background: url(assets/uploads/app-mobile-small.png) center top no-repeat;
+     background-position-x: 0px;
+     z-index: 2;
+     overflow: hidden;
+}
+ .highlights-phone.wht .phone-holder #fon{
+    background: url(assets/uploads/app-mobile-small.png) center top no-repeat;
+     background-position-x: 0px;
+
+}
+ .hgi{
+    position: absolute;
+     left: 12px;
+     visibility: hidden;
+}
+ .hgi img{
+    width: 100%;
+    height: 90%;
+}
+
+ .hgi.active{
+    visibility: visible;
+}
+.left-row{
+    float: left;
+     margin-right: 0;
+}
+
+ .left-row .highlight-title span{
+    right: -8px;
+}
+ .right-row .highlight-title span{
+    left: -8px;
+}
+ .right-row .highlight-title{
+     text-align: left;
+}
+
+ .highlight-title span{
+    position: relative;
+     z-index: 1;
+}
+ .highlight-title .fa{
+    color: #FFFFF0;
+     font-size: 40px;
+     width: 64px;
+     height: 64px;
+     text-align: center;
+     vertical-align: middle;
+}
+ .highlight-title .fa:before{
+    margin: 3px 0;
+     display: block
+}
+ .highlight-title span {
+    background: cornflowerblue;
+    -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+     -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
+     transition: transform ease-out 0.1s, background 0.2s;
+}
+ .highlight-title span:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: -1;
+    box-shadow: inset 0 0 0 2px rgba(9,16,26,0.76);
+    opacity: 0;
+     -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+     box-sizing: content-box;
+    border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+}
+ .highlight.active .highlight-title span {
+    background: crimson;
+     webkit-transform: scale(0.93);
+    -moz-transform: scale(0.93);
+    -ms-transform: scale(0.93);
+    transform: scale(0.93);
+}
+ .highlight:hover .highlight-title span:after {
+    -webkit-animation: sonarEffect 1.3s ease-out 75ms;
+    -moz-animation: sonarEffect 1.3s ease-out 75ms;
+    animation: sonarEffect 1.3s ease-out 75ms;
 }
 
 
