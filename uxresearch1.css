@@ -520,11 +520,11 @@ html, body{
 .swiper-slide.swiper-slide-active .post-media img {
     border-radius: 38px;
     display: block;
-    height: 785px;
+    height: 805px;
     width: 400px;
 	left: calc(50% + 0.5px);
 	position: absolute;
-	top: 24px;
+	top: 6px;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
 	z-index: 2;

@@ -724,6 +724,24 @@ html, body{
      margin: auto;
      overflow: hidden;
 }
+
+
+#fon{
+    position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: url(assets/uploads/app-mobile-small.png) center top no-repeat;
+     background-position-x: 0px;
+     z-index: 2;
+     overflow: hidden;
+}
+ .highlights-phone.wht .phone-holder #fon{
+    background: url(assets/uploads/app-mobile-small.png) center top no-repeat;
+     background-position-x: 0px;
+}
+
  
  .hgi{
     position: absolute;
@@ -731,8 +749,9 @@ html, body{
      visibility: hidden;
 }
  .hgi img{
-    width: 100%;
-    height: 90%;
+    width: 99%;
+    height: 78%;
+    border-radius: 10% !important;
 }
 
  .hgi.active{
