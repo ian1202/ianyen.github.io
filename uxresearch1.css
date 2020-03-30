@@ -470,7 +470,9 @@ html, body{
     width: 100%;
 }
 
-
+.deducing img{
+    width: 100%;
+}
 
 .image-responsive {
     height: 50%;
@@ -490,8 +492,6 @@ html, body{
 .iy-item-thumbonail{
     width: 75%;
 }
-
-
 
 
 
