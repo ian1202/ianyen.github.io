@@ -371,7 +371,7 @@ html, body{
 }
 
 .product .row{
-    margin: 10% 0;
+    margin: 10%;
 }
 
 .first-section {
@@ -506,14 +506,18 @@ html, body{
 
 .about-right h2,
 .about-left h2,
+.about-center h2,
 .brainstorming h2,
+.overview h2,
 .closing h2{
 	font-size: 32px;
 	font-weight: 600;
 }
 .about-right p,
 .about-left p,
+.about-center p,
 .brainstorming p,
+.overview p,
 .closing p{
 	font-size: 16px; 
 	font-weight: 300;
@@ -524,6 +528,7 @@ html, body{
     text-align: justify;
     margin: 8%;
 }
+
 
 
 #theproblem{
