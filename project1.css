@@ -470,6 +470,11 @@ html, body{
     width: 100%;
 }
 
+.video{
+    text-align: center;
+    margin: 6%;
+}
+
 
 #clinicianinterface{
     width: 70%;
