@@ -567,7 +567,13 @@ html, body{
     text-align: center;
 }
 
+.real{
+    text-align: center;
+}
 
+.real img{
+    margin: 6%;
+}
 
 /*--------------------*/
 /* SCREENSHOT */
