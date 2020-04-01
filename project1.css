@@ -384,7 +384,8 @@ html, body{
 
 
 
-#section-title02 {
+#section-title02,
+.demo-title {
     display: block;
     position: relative;
     margin-top: 80px;
