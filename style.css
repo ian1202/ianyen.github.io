@@ -154,6 +154,12 @@ p{
 	text-align: center;
 }
 
+
+
+.overviewimage {
+	display: none;
+}
+
 /*Wordpress default class*/
 
 .alignleft {
