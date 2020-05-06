@@ -463,6 +463,10 @@ html, body{
 	font-weight: 200;
 }
 
+.lifecycle{
+    text-align: center;
+}
+
 .affinity{
     margin-top: -5rem;
 }
