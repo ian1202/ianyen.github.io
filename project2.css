@@ -27,6 +27,10 @@ html {
 	overflow-x:hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
@@ -443,6 +447,39 @@ html, body{
 .section.colorsection h3,
 .section.db h3 {
     color: #ffffff;
+}
+
+
+
+
+.iy-featured-content {
+	margin-top: 64vh;
+	float: left;
+	width: 100%;
+}
+
+
+
+.iy-primary-btn {
+    border-radius: 4px;    
+    background-color: #fff;
+	border: 2px solid #191970;
+    color: #191970;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	padding: 12px 35px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+
+.iy-primary-btn:hover,
+.iy-primary-btn:focus {
+    background-color: #191970;
+    color: #fff;
+    border: 2px solid #fff;
 }
 
 
