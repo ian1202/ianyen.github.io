@@ -695,13 +695,6 @@ html, body{
 }
 
 
-.screenshots-slide li a:hover .view-btn-area{	
-	display: block;
-    opacity: 0.7;
-    background-color: white;
-}
-
-
 
 .screenshots-slide .slick-dots li button::before {
   display: none;
