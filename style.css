@@ -346,8 +346,8 @@ p{
 /*--------------------*/
 
 #iy-featured-slider {
-	background-image: url("assets/images/New-York-Wallpaper-Background-7.jpg");
-	opacity: .80;
+	background-image: url("assets/images/color_background3.jpg");
+	/* opacity: .95; */
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
