@@ -58,7 +58,7 @@ body {
 	padding: 25px 0;
 	z-index: 999;
 	transition: all 0.5s;
-	background-color: #191970;
+	background-color: #000033;
 	position: fixed;
 
 }
@@ -149,7 +149,7 @@ body {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #191970;
+    background-color: #000033;
     border-right: 2px solid white;
     border-left: 2px solid white;
     border-bottom: 2px solid white;
@@ -166,7 +166,7 @@ body {
 	text-align: center;
   }
   
-  .dropdown-content a:hover {background-color: #191970;}
+  .dropdown-content a:hover {background-color: #000033;}
   
   .dropdown:hover .dropdown-content {
     display: block;
