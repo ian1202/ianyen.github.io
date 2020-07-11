@@ -938,7 +938,7 @@ html, body{
   font-weight: 500;
   margin-top: 20px;
   text-transform: uppercase;
-  color: #191970;
+  color: #000033;
 }
 
 
@@ -995,7 +995,7 @@ html, body{
 	.navbar-default .navbar-form {
 		background-color: rgba(0,0,0,0.8);
 		text-align: center;
-		background: #191970;
+		background: #000033;
 	}
 
 	.navbar-default .iy-menu li a {
@@ -1034,7 +1034,7 @@ html, body{
 		float: left;
 	  }
 	  
-	.dropdown-content a:hover {background-color: #191970;}
+	.dropdown-content a:hover {background-color: #000033;}
 	  
 	.dropdown:hover .dropdown-content {
 		display: inline-block;
@@ -1075,7 +1075,7 @@ html, body{
 		display: none;
 		position: relative;
 		float: top;
-		background-color: #191970;
+		background-color: #000033;
 		min-width: 130px;
 		z-index: 1;
 	  }
@@ -1088,7 +1088,7 @@ html, body{
 		float: left;
 	  }
 	  
-	.dropdown-content a:hover {background-color: #191970;}
+	.dropdown-content a:hover {background-color: #000033;}
 	  
 	.dropdown:hover .dropdown-content {
 		display: inline-block;
