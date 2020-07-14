@@ -175,6 +175,49 @@ body {
   }
   
 
+
+
+
+
+
+/*------------------------------------------------------------------
+    ABOUT
+-------------------------------------------------------------------*/
+
+
+.iy-module-about h3 {
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #3A3A3A;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.iy-module-about p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #969696;
+    text-align: center;
+}
+
+.ot-circle {
+    height: 95px;
+    width: 95px;
+    text-align: center;
+    line-height: 98px;
+    color: #3E3E3E;
+    /* border: 3px solid #000; */
+    border-radius: 100px;
+    /* background-color: #E8E8E8; */
+    margin: 0 2px 4px;
+    font-size: 31px;
+}
+
+
+
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
@@ -312,7 +355,7 @@ html, body{
 
 
 .row {
-    margin: 10% 0;
+    margin: 8% 0;
 }
 
 .summary {
@@ -397,6 +440,7 @@ html, body{
 #headline {
     padding: 0 10rem;
     text-align: center;
+    color: #212121;
 }
 
 #overview{
@@ -463,14 +507,11 @@ html, body{
 
 .about-right p,
 .about-left p,
-.about-center p{
+.about-center p,
+.deducing p{
 	font-size: 16px; 
 	font-weight: 200;
 }
-
-
-
-
 
 
 .iy-featured-content {
@@ -517,9 +558,16 @@ html, body{
     width: 100%;
 }
 
+.deducing{
+    padding: 0 5% 0 5%;
+}
+
 .deducing img{
     width: 100%;
+    padding: 5%;
 }
+
+
 
 .image-responsive {
     height: 50%;
