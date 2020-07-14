@@ -376,6 +376,12 @@ html, body{
 -------------------------------------------------------------------*/
 
 
+
+.row {
+    margin: 8% 0;
+}
+
+
 .section {
     display: block;
     position: relative;
