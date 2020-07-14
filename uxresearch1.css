@@ -597,8 +597,7 @@ html, body{
 
 .persona1,
 .persona2{
-    border: 2px black double;
-    background-color: white;
+    background-color: #ffff80;
     padding: 15px;
     text-align: center;
     margin-top: 15%;
@@ -693,6 +692,7 @@ html, body{
 .iy-resume-btn:hover,
 .iy-resume-btn:focus {
     color: navy;
+
 }
 
 
@@ -947,13 +947,40 @@ html, body{
     }
 
 
-
     
     .about-right,
     .about-left {
         padding: 10px 10px;
         height: 50rem;
     }
+
+
+.persona1{
+    background-color: #ffff80;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20%;
+    width: 70%;
+    height: 50%;
+}
+
+
+.persona2{
+    background-color: #ffff80;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20%;
+    margin-top: 50%;
+    width: 70%;
+    height: 50%;
+}
+
+.sketches {
+    margin-top: 50vh;
+}
+
 
     
 }
