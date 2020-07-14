@@ -597,7 +597,8 @@ html, body{
 
 .persona1,
 .persona2{
-    background-color: #ffff80;
+    border: 2px black double;
+    background-color: white;
     padding: 15px;
     text-align: center;
     margin-top: 15%;
