@@ -78,7 +78,7 @@ body {
 }
 
 .navbar-brand img {
-	margin-top: -7px;
+	margin-top: -5px;
 }
 
 #iy-header.iy-fixed-nav {
@@ -553,12 +553,13 @@ html, body{
 
 #snippetimage {
     margin-right: 5px;
+    border-radius: 5px;
 }
 
 
 #affinity {
     width: 100%;
-    border-radius: 7px;
+    border-radius: 5px;
 }
 
 .deducing{
