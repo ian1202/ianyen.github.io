@@ -551,9 +551,7 @@ html, body{
     text-align: center;
 }
 
-.affinity{
-    margin-top: -5rem;
-}
+
 
 #affinity {
     width: 100%;
@@ -568,7 +566,6 @@ html, body{
     width: 100%;
     padding: 5%;
 }
-
 
 
 .image-responsive {
