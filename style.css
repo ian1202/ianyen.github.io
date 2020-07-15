@@ -693,6 +693,7 @@ p{
 .iy-simplefilter li:focus,
 .active {
 	color: navy !important;
+	text-decoration: underline;
 }
 
 
