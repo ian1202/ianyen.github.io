@@ -508,7 +508,8 @@ html, body{
 .about-right p,
 .about-left p,
 .about-center p,
-.deducing p{
+.deducing p,
+.app-features p{
 	font-size: 16px; 
 	font-weight: 200;
 }
@@ -607,6 +608,65 @@ html, body{
 .uxjourney img{
     width: 100%;
 }
+
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Features
+/*-----------------------------------------------------------------------------------*/
+
+
+
+.app-features li {
+    padding-left: 100px;
+    position: relative;
+    margin: 25px 0 0;
+    float: left;
+    border-bottom: dotted 1px #ddd;
+    padding-bottom: 55px;
+
+}
+
+.app-features li > i {
+    position: absolute;
+    left: 0;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #fff;
+    font-size: 35px;
+    font-weight: 500;
+    transition: ease all 0.5s;
+    top: 0;
+    border: solid #0aceb1 2px;
+    color: #0aceb1;
+}
+
+.app-features ul li:last-child {
+    border-bottom: none;
+}
+
+.app-features li:hover > i,
+.app-features li:focus > i {
+    background: #1e72bc;
+    border-color: #1e72bc;
+    color: #fff;
+}
+
+.app-features h4 {
+    text-transform: none;
+    font-weight: 500;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Swiper
