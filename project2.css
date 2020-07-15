@@ -641,11 +641,17 @@ html, body{
 
 
 #designrequirements,
-#wireframes,
-#timeline {
+#wireframes {
     width: 100%;
     height: 50%;
 
+}
+
+#timeline{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 .mockups{
@@ -928,8 +934,7 @@ html, body{
 	}
     
     #designrequirements,
-    #wireframes,
-    #timeline{
+    #wireframes{
         width: 100%;
         height: 100%;
     }
@@ -1026,8 +1031,7 @@ html, body{
     }
 
     #designrequirements,
-    #wireframes,
-    #timeline{
+    #wireframes{
         width: 100%;
         height: 100%;
         display: inline-block;
