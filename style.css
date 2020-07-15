@@ -295,9 +295,11 @@ p{
 
 .navbar-default .iy-menu li a:hover,
 .navbar-default .iy-menu li a:focus,
+.navbar-default .iy-menu li a:active,
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:focus, 
-.navbar-default .navbar-nav > .active > a:hover {
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:active {
 	background-color: transparent;
 	color: #fff;
 
@@ -693,7 +695,6 @@ p{
 .iy-simplefilter li:focus,
 .active {
 	color: navy !important;
-	text-decoration: underline;
 }
 
 
