@@ -551,6 +551,9 @@ html, body{
     text-align: center;
 }
 
+#snippetimage {
+    margin-right: 5px;
+}
 
 
 #affinity {
@@ -560,6 +563,7 @@ html, body{
 
 .deducing{
     padding: 0 5% 0 5%;
+    margin-top: -10rem;
 }
 
 .deducing img{
