@@ -557,6 +557,7 @@ html, body{
 
 #affinity {
     width: 100%;
+    border-radius: 10px;
 }
 
 .deducing{
@@ -598,7 +599,8 @@ html, body{
 
 .persona1,
 .persona2{
-    background-color: #ffff80;
+    background-color: #f2f2f2;
+    opacity: 0.5;
     padding: 15px;
     text-align: center;
     margin-top: 15%;
