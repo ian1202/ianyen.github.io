@@ -476,7 +476,6 @@ html, body{
 
 
 .about-right {
-    padding: 80px 20px;
     width: 100%;
 }
 
@@ -538,13 +537,6 @@ html, body{
 #database,
 #ideation{
     width: 100%;
-    margin-top: 5rem;
-}
-
-
-#theproblems{
-    width: 100%;
-    margin-top: 15rem;
 }
 
 #functionalities{
@@ -1154,9 +1146,6 @@ html, body{
         height: 100%;
     }
 
-    #anonymity{
-        margin: -20% 0;
-    }
 
     
     .about-right,
