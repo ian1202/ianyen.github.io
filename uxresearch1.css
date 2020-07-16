@@ -558,6 +558,7 @@ html, body{
     border-radius: 5px;
 }
 
+
 .deducing{
     padding: 0 5% 0 5%;
     margin-top: -10rem;
@@ -669,7 +670,6 @@ html, body{
 
 #snippetimage {
     position: absolute;
-    top: 50%;
     width: 100%;
     height: 80vh;
     border-radius: 5px;
@@ -897,7 +897,8 @@ html, body{
 
 	.navbar-default .iy-menu li a {
 		display: inline-block;
-	}
+    }
+    
 
 		
 }
@@ -958,6 +959,10 @@ html, body{
         width: 50%;
         height: 30%;
         margin-bottom: 10%;
+    }
+
+    .process{
+        margin-top: 80vh;
     }
     
 
@@ -1062,6 +1067,10 @@ html, body{
 
 .sketches {
     margin-top: 50vh;
+}
+
+.process{
+    margin-top: 80vh;
 }
 
 
