@@ -477,7 +477,7 @@ html, body{
 
 .about-right {
     padding: 80px 20px;
-    width: 500px;
+    width: 100%;
 }
 
 .about-right h2,
@@ -537,9 +537,14 @@ html, body{
 #theproblems,
 #database,
 #ideation{
-    height: 50%;
     width: 100%;
     margin-top: 5rem;
+}
+
+
+#theproblems{
+    width: 100%;
+    margin-top: 15rem;
 }
 
 #functionalities{
