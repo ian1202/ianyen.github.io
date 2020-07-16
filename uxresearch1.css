@@ -437,16 +437,17 @@ html, body{
 }
 
 
-#headline {
-    padding: 0 10rem;
-    text-align: center;
-    color: #212121;
+
+
+#suffering{
+    align-items: center;
+    width: 100%;
 }
 
 #overview{
     width: 100%;
-    padding: 6%;
 }
+
 
 #section-title02 {
     display: block;
@@ -551,13 +552,6 @@ html, body{
     text-align: center;
 }
 
-#snippetimage {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    border-radius: 5px;
-}
-
 
 #affinity {
     width: 100%;
@@ -629,10 +623,10 @@ html, body{
 .app-features li {
     padding-left: 100px;
     position: relative;
-    margin: 15px 0 0;
+    margin: 25px 0;
     float: left;
     border-bottom: dotted 1px #ddd;
-    padding-bottom: 55px;
+    padding-bottom: 45px;
 
 }
 
@@ -672,6 +666,15 @@ html, body{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+#snippetimage {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 80vh;
+    border-radius: 5px;
+}
+
 
 
 
