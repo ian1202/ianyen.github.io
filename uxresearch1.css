@@ -22,15 +22,16 @@ AOS.init();
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
 
+
+html {
+    scroll-behavior: smooth;
+  }
+
 body,
 html {
     overflow-x:hidden;
 }
 
-html {
-    scroll-behavior: smooth;
-  }
-  
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -40,7 +41,7 @@ body {
 	color: blue;
 }
 
-
+  
 
 
 
