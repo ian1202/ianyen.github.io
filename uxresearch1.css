@@ -527,8 +527,8 @@ html, body{
 .iy-primary-btn {
     border-radius: 4px;    
     background-color: #fff;
-	border: 2px solid #191970;
-    color: #191970;
+	border: 2px solid #000033;
+    color: #000033;
 	display: inline-block;
 	font-size: 14px;
 	font-weight: 700;
@@ -541,7 +541,7 @@ html, body{
 
 .iy-primary-btn:hover,
 .iy-primary-btn:focus {
-    background-color: #191970;
+    background-color: #000033;
     color: #fff;
     border: 2px solid #fff;
 }

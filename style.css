@@ -89,12 +89,12 @@ h2 {
 
 h3 {  
 	font-size: 24px;
-	color: #191970;
+	color: #000033;
 }
 
 h4 {  
 	font-size: 20px; 
-	color: #191970; 
+	color: #000033; 
 	text-align: center;
 }
 
@@ -440,7 +440,7 @@ p{
 	display: inline;
 	float: left;
 	text-align: center;
-	color:#191970;
+	color:#000033;
 }
 
 .iy-about-header p{
@@ -451,7 +451,7 @@ p{
 }
 
 .iy-heading-title{
-	display: #191970;
+	display: #000033;
 	padding: 30px 20px 70px 20px;
 	margin-top: 8%;
 	margin-left: auto;
@@ -527,7 +527,7 @@ p{
 
 .iy-resume-btn:hover,
 .iy-resume-btn:focus {
-	color: navy;
+	color: #000033;
 }
 
 /*--------------------*/
@@ -558,7 +558,7 @@ p{
 }
 
 .iy-specialty-title {
-	color: #191970;
+	color: #000033;
 	margin-bottom: 15px;
 	position: relative;
 }
@@ -634,7 +634,7 @@ p{
 }
 
 .iy-heading-title {
-	color: #191970;
+	color: #000033;
 	position: relative;
 }
 
@@ -693,7 +693,7 @@ p{
 .iy-simplefilter li:active,
 .iy-simplefilter li:focus,
 .active {
-	color: navy !important;
+	color:#000033 !important;
 }
 
 
