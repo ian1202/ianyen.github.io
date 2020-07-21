@@ -89,12 +89,12 @@ h2 {
 
 h3 {  
 	font-size: 24px;
-	color: #000033;
+	color:#00001a;
 }
 
 h4 {  
 	font-size: 20px; 
-	color: #000033; 
+	color: #00001a; 
 	text-align: center;
 }
 
@@ -226,7 +226,7 @@ p{
 	padding: 25px 0;
 	z-index: 999;
 	transition: all 0.5s;
-	background-color: #000033;
+	background-color: #00001a;
 	position: fixed;
 
 }
@@ -319,7 +319,7 @@ p{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #000033;
+    background-color: #00001a;
     border-right: 2px solid white;
     border-left: 2px solid white;
     border-bottom: 2px solid white;
@@ -336,7 +336,7 @@ p{
 	text-align: center;
   }
   
-  .dropdown-content a:hover {background-color: #000033;}
+  .dropdown-content a:hover {background-color: #00001a;}
   
   .dropdown:hover .dropdown-content {
     display: block;
@@ -440,7 +440,7 @@ p{
 	display: inline;
 	float: left;
 	text-align: center;
-	color:#000033;
+	color:#00001a;
 }
 
 .iy-about-header p{
@@ -451,7 +451,7 @@ p{
 }
 
 .iy-heading-title{
-	display: #000033;
+	display: #00001a;
 	padding: 30px 20px 70px 20px;
 	margin-top: 8%;
 	margin-left: auto;
@@ -527,7 +527,7 @@ p{
 
 .iy-resume-btn:hover,
 .iy-resume-btn:focus {
-	color: #000033;
+	color: #00001a;
 }
 
 /*--------------------*/
@@ -558,7 +558,7 @@ p{
 }
 
 .iy-specialty-title {
-	color: #000033;
+	color: #00001a;
 	margin-bottom: 15px;
 	position: relative;
 }
@@ -634,7 +634,7 @@ p{
 }
 
 .iy-heading-title {
-	color: #000033;
+	color: #00001a;
 	position: relative;
 }
 
@@ -693,7 +693,7 @@ p{
 .iy-simplefilter li:active,
 .iy-simplefilter li:focus,
 .active {
-	color:#000033 !important;
+	color:#00001a !important;
 }
 
 
@@ -758,7 +758,7 @@ p{
   font-weight: 500;
   margin-top: 20px;
   text-transform: uppercase;
-  color: #000033;
+  color: #00001a;
 }
 
 
@@ -860,7 +860,7 @@ p{
 	.navbar-default .navbar-form {
 		background-color: rgba(0,0,0,0.8);
 		text-align: center;
-		background: #000033;
+		background: #00001a;
 	}
 
 	.navbar-default .iy-menu li a {
@@ -901,7 +901,7 @@ p{
 		float: left;
 	  }
 	  
-	.dropdown-content a:hover {background-color: #000033;}
+	.dropdown-content a:hover {background-color:#00001a;}
 	  
 	.dropdown:hover .dropdown-content {
 		display: inline-block;
@@ -989,7 +989,7 @@ p{
 		float: left;
 	  }
 	  
-	.dropdown-content a:hover {background-color: #000033;}
+	.dropdown-content a:hover {background-color: #00001a;}
 	  
 	.dropdown:hover .dropdown-content {
 		display: inline-block;

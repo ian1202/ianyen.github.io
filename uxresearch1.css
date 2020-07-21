@@ -60,7 +60,7 @@ body {
 	padding: 25px 0;
 	z-index: 999;
 	transition: all 0.5s;
-	background-color: #000033;
+	background-color: #00001a;
 	position: fixed;
 
 }
@@ -151,7 +151,7 @@ body {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #000033;
+    background-color: #00001a;
     border-right: 2px solid white;
     border-left: 2px solid white;
     border-bottom: 2px solid white;
@@ -168,7 +168,7 @@ body {
 	text-align: center;
   }
   
-  .dropdown-content a:hover {background-color: #000033;}
+  .dropdown-content a:hover {background-color: #00001a;}
   
   .dropdown:hover .dropdown-content {
     display: block;
@@ -527,8 +527,8 @@ html, body{
 .iy-primary-btn {
     border-radius: 4px;    
     background-color: #fff;
-	border: 2px solid #000033;
-    color: #000033;
+	border: 2px solid #00001a;
+    color: #00001a;
 	display: inline-block;
 	font-size: 14px;
 	font-weight: 700;
@@ -541,7 +541,7 @@ html, body{
 
 .iy-primary-btn:hover,
 .iy-primary-btn:focus {
-    background-color: #000033;
+    background-color: #00001a;
     color: #fff;
     border: 2px solid #fff;
 }
@@ -725,7 +725,7 @@ html, body{
 .owl-screenshots .swiper-button-next, .owl-screenshots .swiper-button-prev{
 	background-image: none;
 	font-size: 54px;
-	color: #333333;
+	color: #00001a;
 }
 
 .owl-screenshots .swiper-button-next:hover, .owl-screenshots .swiper-button-prev:hover{
@@ -734,7 +734,7 @@ html, body{
 
 .swiper-pagination-bullet{
 	opacity: 1;
-	background: #333333;
+	background: #00001a;
 }
 .swiper-pagination-bullet-active{
 	background: #E65100;
@@ -835,7 +835,7 @@ html, body{
   font-weight: 500;
   margin-top: 20px;
   text-transform: uppercase;
-  color: #000033;
+  color: #00001a;
 }
 
 
@@ -892,7 +892,7 @@ html, body{
 	.navbar-default .navbar-form {
 		background-color: rgba(0,0,0,0.8);
 		text-align: center;
-		background: #000033;
+		background:#00001a;
 	}
 
 	.navbar-default .iy-menu li a {
@@ -932,7 +932,7 @@ html, body{
 		float: left;
 	  }
 	  
-	.dropdown-content a:hover {background-color: #000033;}
+	.dropdown-content a:hover {background-color: #00001a;}
 	  
 	.dropdown:hover .dropdown-content {
 		display: inline-block;
@@ -996,7 +996,7 @@ html, body{
 		display: none;
 		position: relative;
 		float: top;
-		background-color: #000033;
+		background-color: #00001a;
 		min-width: 130px;
 		z-index: 1;
 	  }
@@ -1009,7 +1009,7 @@ html, body{
 		float: left;
 	  }
 	  
-	.dropdown-content a:hover {background-color: #000033;}
+	.dropdown-content a:hover {background-color: #00001a;}
 	  
 	.dropdown:hover .dropdown-content {
 		display: inline-block;
