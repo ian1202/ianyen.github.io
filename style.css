@@ -523,8 +523,8 @@ p{
 	letter-spacing: 1px;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
+	color: white;
 	background-color: #00001a;
-	color:white;
 }
 
 .iy-resume-btn:hover,
