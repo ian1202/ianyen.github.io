@@ -523,11 +523,14 @@ p{
 	letter-spacing: 1px;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
+	background-color: #00001a;
+	color:white;
 }
 
 .iy-resume-btn:hover,
 .iy-resume-btn:focus {
 	color: #00001a;
+	background-color: transparent;
 }
 
 /*--------------------*/
